@@ -1,0 +1,13 @@
+---
+layout: post
+title: "<em>message</em>: display message"
+date: 2017-08-26
+category: R
+tags: [R, function]
+---
+
+```
+message("...")
+```
+
+<small> viewed on http://www.rfunction.com/ </small>

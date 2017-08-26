@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Functions of the <em>IRanges</em>"
+date: 2017-08-26
+category: R
+tags: [R, function, package]
+---
+
+
+
+
+function with IRanges
+- findOverlaps => detect overlaps
+- coverage => count number of ranges over each position
+- nearest => find nearest neighbor ranges (overlapping is zero distance) 
+- preced / follow  => find non-overlapping nearest neighbors on specific direction
+- disjoin => make the ranges non-overlapping
+- set operations are implemented in 2 ways (1 normal, 1 applied to each pair)

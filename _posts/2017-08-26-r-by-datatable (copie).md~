@@ -1,0 +1,20 @@
+---
+layout: post
+title: "<em>unname</em>: remove name of an object"
+date: 2017-08-26
+category: R
+tags: [R, function, data_frame]
+---
+
+
+```
+x <- c(nom="Jean")
+# x
+#   nom 
+#  "Jean" 
+
+unname(x)
+# [1] "Jean"
+
+```
+

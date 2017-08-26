@@ -1,0 +1,19 @@
+---
+layout: post
+title: "<em>structure</em>"
+date: 2017-08-26
+category: R
+tags: [R, function]
+---
+
+<code>structure</code> returns the given object with further attributes set.
+
+```
+structure(1:6, dim = 2:3)
+#     [,1] [,2] [,3]
+# [1,]    1    3    5
+# [2,]    2    4    6
+```
+
+
+<small> viewed on http://www.rfunction.com </small>
