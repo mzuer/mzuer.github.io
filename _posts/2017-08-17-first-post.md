@@ -11,5 +11,6 @@ date: 2017-01-01
 essai
 
 ```html
-<small> petit </small>
+<h2> example </h2>
+<p><small> petit </small></p>
 ```
