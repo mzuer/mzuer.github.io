@@ -12,5 +12,5 @@ essai
 
 ```html
 <h2> example </h2>
-<small> petit </small>
+<p><small> petit </small></p>
 ```
