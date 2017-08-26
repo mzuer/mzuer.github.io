@@ -10,8 +10,7 @@ tags: [bash, awk, sed]
 # put the code 
 ```
 
-**Example1 - print lines between 5 and 10:**
-
+<strong>Example1 - print lines between 5 and 10:</strong> <br>
 * with <code>awk</code> <br>
 
 ```
@@ -27,8 +26,7 @@ sed -n '5,10p' file.txt
 
 
 
-**Example2 - print from line 10 to last line:**
-
+<strong>Example2 - print from line 10 to last line:</strong> <br>
 * with <code>awk</code> <br>
 
 ```

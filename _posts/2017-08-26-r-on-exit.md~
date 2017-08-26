@@ -3,7 +3,7 @@ layout: post
 title: "<em>match</em>:  identify elements in vector"
 date: 2017-08-26
 category: R
-tags: [R, function, logic, vector]
+tags: [R, function, logic]
 ---
 
 used within other functions to specify a command to be run when exiting the parent function (e.g. using to restore settings for plotting parameters)

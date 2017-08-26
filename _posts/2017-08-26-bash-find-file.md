@@ -1,9 +1,18 @@
 ---
 layout: post
-title: "First post"
-date: 2017-01-01
+title: "Bash - find file with specific content (<em>find</em>)"
+date: 2017-08-26
+category: bash
+tags: [bash]
 ---
 
 ```
-# put the code 
+find . -type f -name '*.R' -exec grep "pattern"
 ```
+
+similar to:
+
+```
+find folder -type f -name '*.R' | xargs  grep "pattern"
+```
+

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "<em>box</em>: draw box around the plot"
+date: 2017-08-26
+category: R_function
+tags: [R, function, plot]
+---
+
+```
+plot(...)
+box(bty="l")
+```
+
+<small> the kind of drawing corresponds to the capital letter </small>

@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "First post"
-date: 2017-01-01
+title: "<em>smoothScatter</em>: density plot bivariate data"
+date: 2017-08-26
+category: R
+tags: [R, plot, function]
 ---
 
 ```
-# put the code 
+x <- rchisq(1000, 4) + rnorm(1000)
+y <- rnorm(1000, 7)
+smoothScatter(x, y)
 ```
+
+<small> viewed on http://www.rfunction.com </small>

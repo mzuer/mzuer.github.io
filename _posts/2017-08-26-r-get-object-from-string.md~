@@ -1,0 +1,16 @@
+---
+layout: post
+title: "<em>get</em>: call object from string"
+date: 2017-08-26
+category: R_function
+tags: [R, function]
+---
+
+```
+x5 <- "x5 variable"
+get("x5")
+# [1] "x5 variable"
+```
+
+
+<small> viewed on http://rfunction.com </small>

@@ -2,7 +2,7 @@
 layout: post
 title: "<em>edaPlot{openIntro}</em>: interactive plots for a data frame"
 date: 2017-08-26
-category: R
+category: R_function
 tags: [R, plot, function]
 ---
 

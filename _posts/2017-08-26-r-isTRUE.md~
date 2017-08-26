@@ -2,7 +2,7 @@
 layout: post
 title: "<em>isTRUE</em>: check if exactly TRUE and length 1"
 date: 2017-08-26
-category: R
+category: R_function
 tags: [R, function, logic]
 ---
 

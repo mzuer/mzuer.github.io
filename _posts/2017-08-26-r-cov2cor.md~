@@ -3,7 +3,7 @@ layout: post
 title: "<em>cov2cor</em>: covariance to correlation matrix"
 date: 2017-08-26
 category: R
-tags: [R, function, matrix]
+tags: [R, function]
 ---
 
 convert covariance matrix to correlation matrix
