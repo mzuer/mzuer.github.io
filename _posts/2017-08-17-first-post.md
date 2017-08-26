@@ -10,4 +10,6 @@ date: 2017-01-01
 
 essai
 
-    <small> petit </small>
+```html
+<small> petit </small>
+```
