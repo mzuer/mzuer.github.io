@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <em>cut</em>, <em>cut2</em> and <em>split</em>: splitting vectors in intervals
+title: "<em>cut</em>, <em>cut2</em> and <em>split</em>: splitting vectors in intervals"
 date: 2017-09-02
 category: R
 tags: [R, vector]
