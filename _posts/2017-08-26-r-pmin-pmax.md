@@ -11,7 +11,7 @@ take one or more vectors as arguments, recycle them to common length and return 
 ```
 min(5:1, pi)
 # [1] 1
-> pmin(5:1, pi)
+pmin(5:1, pi)
 # [1] 3.141593 3.141593 3.000000 2.000000 1.000000
 ```
 

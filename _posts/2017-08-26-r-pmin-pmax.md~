@@ -6,7 +6,7 @@ category: R
 tags: [R, logic]
 ---
 
- take one or more vectors as arguments, recycle them to common length and return a single vector giving the ‘parallel’ maxima (or minima) of the argument vectors
+take one or more vectors as arguments, recycle them to common length and return a single vector giving the ‘parallel’ maxima (or minima) of the argument vectors
 
 ```
 min(5:1, pi)
