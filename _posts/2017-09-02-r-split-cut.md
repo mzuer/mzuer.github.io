@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "<em>pmin</em> and <em>pmax</em>: parallel minima and maxima"
-date: 2017-08-26
+title: "<em>cut</em>, <em>cut2</em> and <em>split</em>: splitting vectors in intervals
+date: 2017-09-02
 category: R
-tags: [R, logic]
+tags: [R, vector]
 ---
 
 combine cut/cut2 and split for splitting vector 
