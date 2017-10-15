@@ -1,0 +1,13 @@
+---
+layout: post
+title: "<em>as.list</em>: convert to list"
+date: 2017-10-15
+category: R
+tags: [R, function]
+---
+
+For example, to convert each element of a vector into element of a list
+```
+as.list(setNames(datasetList, paste(datasetList, "domains")))
+```
+

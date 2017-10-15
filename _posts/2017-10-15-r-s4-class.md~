@@ -1,0 +1,109 @@
+---
+layout: post
+title: "S3 class: basics"
+date: 2017-10-15
+category: R
+tags: [R, class]
+---
+
+http://www.cyclismo.org/tutorial/R/s4Classes.html
+
+
+http://adv-r.had.co.nz/S4.html
+
+
+An S4 class has three key properties:
+<ul>
+    <li>A name: an alpha-numeric class identifier. By convention, S4 class names use UpperCamelCase.</li>
+    <li>A named list of slots (fields), which defines slot names and permitted classes. For example, a person class might be represented by a character name and a numeric age: list(name = "character", age = "numeric").</li>
+    <li>A string giving the class it inherits from, or, in S4 terminology, that it contains. You can provide multiple classes for multiple inheritance, but this is an advanced technique which adds much complexity.</li>
+</ul>
+
+
+Example of creation and usage of S4 class:
+
+```
+FirstQuadrant <- setClass(
+        # Set the name for the class
+        "FirstQuadrant",
+        # Define the slots
+        slots = c(
+                x = "numeric",
+                y = "numeric"
+                ),
+        # Set the default values for the slots. (optional)
+        prototype=list(
+                x = 0.0,
+                y = 0.0
+                ),
+        # Make a function that can test to see if the data is consistent.
+        # This is not called if you have an initialize function defined!
+        validity=function(object)
+        {
+                if((object@x < 0) || (object@y < 0)) {
+                        return("A negative number for one of the coordinates was given.")
+                }
+                return(TRUE)
+        }
+        )
+
+
+setClass("Person", 
+  slots = list(name = "character", age = "numeric"))
+setClass("Employee",
+  slots = list(boss = "Person"),
+  contains = "Person")
+
+alice <- new("Person", name = "Alice", age = 40)
+john <- new("Employee", name = "John", age = 20, boss = alice)
+
+Most S4 classes also come with a constructor function with the same name as the class: if that exists, use it instead of calling new() directly.    
+
+the signature is a vector of characters and specifies the data types of the argument list for the method to be defined.
+
+# create a method to assign the value of a coordinate
+setGeneric(name="setCoordinate",
+                       def=function(theObject,xVal,yVal)
+                       {
+                               standardGeneric("setCoordinate")
+                       }
+                       )
+
+setMethod(f="setCoordinate",
+                      signature="FirstQuadrant",
+                      definition=function(theObject,xVal,yVal)
+                      {
+                              theObject@x <- xVal
+                              theObject@y <- yVal
+                              return(theObject)
+                      }
+                      )
+# inheritance
+Prey <- setClass(
+        # Set the name for the class
+        "Prey",
+
+        # Define the slots - in this case it is empty...
+        slots = character(0),
+
+        # Set the default values for the slots. (optional)
+        prototype=list(),
+
+        # Make a function that can test to see if the data is consistent.
+        # This is not called if you have an initialize function defined!
+        validity=function(object)
+        {
+                if(sum(object@velocity^2)>70.0) {
+                        return("The velocity level is out of bounds.")
+                }
+                return(TRUE)
+        },
+
+        # Set the inheritance for this class
+        contains = "Agent"
+        )
+
+
+
+
+```

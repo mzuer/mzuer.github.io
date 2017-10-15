@@ -1,0 +1,42 @@
+---
+layout: post
+title: "<em>raseterize</em>: 2D raster pixel plot with color code"
+date: 2017-10-15
+category: R
+tags: [R, plot]
+---
+
+2D raster plot with color code:
+
+```
+library(spatstat)
+library(raster)
+library(sp)
+
+plot(bei$x, bei$y, pch = 19, cex = 0.5, main = "Spatial distribution of individuals in the 50-ha Barro Colorado plot", 
+    xlab = "x coordinate [m]", ylab = "y coordinate [m]", frame = FALSE)
+abline(h = 0, col = "grey")
+abline(h = 500, col = "grey")
+abline(v = 0, col = "grey")
+abline(v = 1000, col = "grey")
+
+
+# coarsening the predictor data into the 50 x 50 m grid by taking the mean
+# of the 5 x 5 m grid cells:
+elev <- raster(bei.extra[[1]])
+# cropping the data so that they have exactly 500 x 1000 cells
+ext <- extent(2.5, 1002.5, 2.5, 1002.5)
+elev <- crop(elev, ext)
+# aggregating the elevation data
+elev50 <- aggregate(elev, fact = 10, fun = mean)
+
+# fitting the point data into the 50 x 50 m grid
+xy <- data.frame(x = bei$x, y = bei$y)
+n50 <- rasterize(xy, elev50, fun = "count")
+# replacing the NA values by 0
+n50[is.na(n50)] <- 0
+
+plot(stack(elev50, n50), main = c("Predictor: Mean Elevation in 50x50 m cells", 
+    "Response: # of Individuals in 50x50 m cells"), axes = FALSE)
+
+```

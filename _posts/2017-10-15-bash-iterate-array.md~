@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Bash - iterate over elements of an array"
+date: 2017-10-15
+category: bash
+tags: [bash]
+---
+
+https://www.cyberciti.biz/faq/bash-for-loop-array/
+
+Let's retrieve an array
+
+```
+myArray=("$@") 
+#or
+myArray=( "one" "two" "three")
+```
+
+First possibility, if retrieved from command line:
+
+```
+for arg; do
+   echo "$arg"
+done
+```
+
+is equivalent to:
+
+```
+for arg in "${myArray[@]}"; do
+   echo "$arg"
+done
+```
+
+Another example:
+
+```
+for i in {1..100}; do
+ echo $i
+done
+```
+
+Similar to:
+
+```
+for ((i=1;i<=100;i++)); do 
+   echo $i
+done
+```
+
+With <em>seq</em>:
+
+```
+for i in $(seq 1 $END); do 
+    echo $i; 
+done
+```
+
+Using while:
+
+```
+c=1
+while [[ $c -le 100 ]]; do 
+   echo "$c"
+   let c=c+1
+done
+```
+
+```
+```
+

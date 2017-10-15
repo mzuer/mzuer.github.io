@@ -1,0 +1,21 @@
+---
+layout: post
+title: "<em>attr</em>: access object attributes"
+date: 2017-10-15
+category: R
+tags: [R, function]
+---
+
+Access object attributes with <em>attr()</em>
+
+```
+inData_smallest <- do.call(rbind, by(inData, inData$start, function(x) x[which.min(x$end),]))
+```
+
+Or to select the smallest start with biggest end:
+
+```
+inData_smallest <- do.call(rbind, by(tmpDF, tmpDF$gene_id, function(x) c(min(x$start), max(x$end))))
+```
+
+

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "<em>unname</em>: remove the name of an object"
+date: 2017-10-15
+category: R
+tags: [R, function]
+---
+
+Use <em>unname()</em> to remove the names of an object
