@@ -7,7 +7,8 @@ tags: [bash]
 ---
 
 ```
-find . -type f -name '*.R' -exec grep "pattern"
+find . -type f -name '*.R' -exec grep -l "pattern"  {} \;
+
 ```
 
 similar to:
