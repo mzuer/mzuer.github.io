@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bash - find file with specific content (<em>find</em>)"
-date: 2017-08-26
+date: 2017-10-15
 category: bash
 tags: [bash]
 ---

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "R - get association of variables with PC1"
+date: 2017-11-25
+category: R
+tags: [R, plots, PCA]
+---
+
+```
+## Which variables are strongly associated to PC1?
+par(mar=c(12,5,4,4))
+barplot(sort(pca$rotation[,"PC1"]),las=2)
+```
+
+
+
