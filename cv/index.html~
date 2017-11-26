@@ -1,17 +1,17 @@
 ---
 layout: default
-title: CV of Your Name
+title: CV of Marie Zufferey
 ---
 
 	<div class="cv">
-		<a href="#" class="download" title="Download CV as PDF">Download CV</a>			
+		<a href="moncv.pdf" class="download" title="Download CV as PDF">Download CV</a>			
 					<h1>Marie Zufferey</h1>
 					<address>
-					<strong>Affiliation</strong><br>
-					Street Address<br>
-					City State 12345<br>
-					<abbr title="phone">P:</abbr> (123) 456-7890<br>
-					<span class="obfuscate">youremailaddress@email.com</span>
+					<strong>University of Lausanne</strong><br>
+					Department of computational biology<br>
+					Computational systems oncology<br>
+					<abbr title="phone">P:</abbr>[phone_nbr]<br>
+					<span class="obfuscate">zuffereymarie0@gmail.com</span>
 					</address>
 
 					<h2>Select Publications</h2>
