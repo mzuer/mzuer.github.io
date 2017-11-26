@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - sweep function"
+title: "R - <em>sweep</em> function"
 date: 2017-11-25
 category: R
 tags: [R, function]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - add grid on plot"
+title: "R - <em>grid()</em>: add grid on plot"
 date: 2017-11-25
 category: R
 tags: [R, plots]

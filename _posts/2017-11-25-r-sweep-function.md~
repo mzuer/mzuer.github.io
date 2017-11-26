@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "R - add curve on base plot"
+title: "R - sweep function"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, function]
 ---
 
-Add a curve on existing plot:
+https://bioinfomagician.wordpress.com/2014/08/12/my-favorite-commands-part3-sweep-function-in-r/
 
-```
-curve(x^2, from=1, to=50, , xlab="x", ylab="y")
-```

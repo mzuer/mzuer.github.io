@@ -3,7 +3,7 @@ layout: post
 title: "R - C++ in R with <em> cppFunction </em>"
 date: 2017-11-25
 category: R
-tags: [R, Rcpp]
+tags: [R, Rcpp, C++]
 ---
 
 Write a C++ function directly in R script
