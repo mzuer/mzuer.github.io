@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - multiple panels with R base plots"
+title: "R - bean plots"
 date: 2017-11-25
 category: R
 tags: [R, plots]
