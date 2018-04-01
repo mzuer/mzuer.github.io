@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bash - change many file names in one-line for loop"
+title: "Bash - change many file names in one-line for loop (<em>for</em> and <em>mv</em>)"
 date: 2018-01-21
 category: bash
 tags: [bash, loop]
