@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - list preallocation using <em>vector</em>
+title: "R - list preallocation using <em>vector</em>"
 date: 2018-04-01
 category: R
 tags: [R function]
