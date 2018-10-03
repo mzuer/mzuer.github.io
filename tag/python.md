@@ -1,7 +1,7 @@
-
-    ---
-    layout: tagpage
-    title: "Tag: python"
-    tag: python
-    ---
+---
+layout: tagpage
+title: "Tag: python"
+tag: python
+---
+            
 

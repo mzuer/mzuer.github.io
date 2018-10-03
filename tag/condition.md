@@ -1,7 +1,7 @@
-
-    ---
-    layout: tagpage
-    title: "Tag: condition"
-    tag: condition
-    ---
+---
+layout: tagpage
+title: "Tag: condition"
+tag: condition
+---
+            
 

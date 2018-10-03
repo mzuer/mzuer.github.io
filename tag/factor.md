@@ -1,7 +1,7 @@
-
-    ---
-    layout: tagpage
-    title: "Tag: factor"
-    tag: factor
-    ---
+---
+layout: tagpage
+title: "Tag: factor"
+tag: factor
+---
+            
 
