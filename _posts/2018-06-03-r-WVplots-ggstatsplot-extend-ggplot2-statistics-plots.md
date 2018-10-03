@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>WVPlots</em> and <em>ggstatsplot</em> powerful packages extend <em>ggplot2</em> for statistics plots"
 date: 2018-06-03
 category: R
-tags: [R package plot ggplot2]
+tags: R package plot ggplot2
 ---
 
 

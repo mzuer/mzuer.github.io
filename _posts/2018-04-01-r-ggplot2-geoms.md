@@ -3,7 +3,7 @@ layout: post
 title: "R - review of various <em>geoms</em> and <em>aes</em> from <em>ggplot2</em>"
 date: 2018-04-01
 category: R
-tags: [R plot]
+tags: R plot
 ---
 
 

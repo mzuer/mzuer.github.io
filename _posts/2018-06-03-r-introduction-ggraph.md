@@ -3,7 +3,7 @@ layout: post
 title: "R - introduction to <em>ggraph</em> package"
 date: 2018-06-03
 category: R
-tags: [R plot ggplot2]
+tags: R plot ggplot2
 ---
 
 Vignette introduction to ggraph package:

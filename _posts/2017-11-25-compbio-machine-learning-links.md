@@ -3,7 +3,7 @@ layout: post
 title: "compbio - machine/deep learning ressource links"
 date: 2017-11-25
 category: combio
-tags: [compbio, machine learning]
+tags: [compbio, machine_learning]
 ---
 
 # Machine learning FAQ

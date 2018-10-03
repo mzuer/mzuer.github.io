@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>tileGenome</em> function to partition genome (from <em>GenomicRanges</em> package)"
 date: 2018-06-03
 category: R
-tags: [R function output]
+tags: R function output
 ---
 
 <em>GenomicRanges::tileGenome</em> returns a set of genomic regions that form a partitioning of the specified genome. Each region is called a "tile".

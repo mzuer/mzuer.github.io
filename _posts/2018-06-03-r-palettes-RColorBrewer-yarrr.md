@@ -3,7 +3,7 @@ layout: post
 title: "R - color palette packages: <em>RColorBrewer</em> and <em>yarrr</em>"
 date: 2018-06-03
 category: R
-tags: [R package plot color]
+tags: R package plot colors
 ---
 
 Two packages providing color palettes: 

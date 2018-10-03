@@ -3,7 +3,7 @@ layout: post
 title: "R - draw error bars in R base plot with <em>arrows</em>"
 date: 2018-06-03
 category: R
-tags: [R plot]
+tags: R plot
 ---
 
 Draw error bar in base plot

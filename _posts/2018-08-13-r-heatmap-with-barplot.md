@@ -3,7 +3,7 @@ layout: post
 title: "R - create heatmap with barplot"
 date: 2018-08-13
 category: R
-tags: [R barplot heatmap plot]
+tags: R barplot heatmap plot
 ---
 
 Different ways for creating heatmap with barplot:

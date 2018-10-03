@@ -3,7 +3,7 @@ layout: post
 title: "R - example of <em>mclapply</em> usage"
 date: 2018-06-03
 category: R
-tags: [R function parallel]
+tags: R function parallel
 ---
 
 Example how to use  <em>parallel::mclapply</em>:

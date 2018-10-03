@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>Sushi</em> package for genomic data visualization"
 date: 2018-06-03
 category: R
-tags: [R package plot bioconductor bioinformatics]
+tags: R package plot bioconductor bioinformatics
 ---
 
 

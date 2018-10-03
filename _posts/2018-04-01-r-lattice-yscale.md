@@ -3,7 +3,7 @@ layout: post
 title: "R - notes on <em>lattice</em> plot"
 date: 2018-04-01
 category: R
-tags: [R plot]
+tags: R plot
 ---
 
 Use <em>print</em> to save <em>lattice</em> plot in file

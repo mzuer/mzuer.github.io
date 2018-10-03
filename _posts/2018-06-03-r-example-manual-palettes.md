@@ -3,7 +3,7 @@ layout: post
 title: "R - few examples of manual palettes"
 date: 2018-06-03
 category: R
-tags: [R plot color]
+tags: R plot colors palettes
 ---
 
 Few suggestions for manual palettes

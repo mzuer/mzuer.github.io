@@ -3,7 +3,7 @@ layout: post
 title: "R - get overlap between intervals using functions from <em>IRanges</em>"
 date: 2018-04-01
 category: R
-tags: [R package function]
+tags: R package function
 ---
 
 Get overlap between 2 intervals using various functions from the <em>IRanges</em> package: <em>findOverlaps</em>, <em>pintersect</em>, <em>queryHits</em> and <em>subjectHits</em>.

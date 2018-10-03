@@ -3,7 +3,7 @@ layout: post
 title: "R - single (e.g. <em>&</em>) or double (e.g. <em>&&</em>) logical operators"
 date: 2018-04-01
 category: R
-tags: [R boolean]
+tags: R boolean
 ---
 
 Shorter form (e.g. <em>&</em>) performs elementwise comparisons.

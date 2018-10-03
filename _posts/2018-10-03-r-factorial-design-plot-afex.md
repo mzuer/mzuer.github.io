@@ -3,7 +3,7 @@ layout: post
 title: "R - factorial design plot with <em>afex_plot()</em> from <em>afex</em> package"
 date: 2018-10-03
 category: R
-tags: [R plot package function ggplot2]
+tags: R plot package function ggplot2
 ---
 
 Publication-ready plots for factorial designs

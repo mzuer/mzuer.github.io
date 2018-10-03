@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>ggplotify</em> or <em>base2grob</em> to convert base plots to <em>ggplot</em> and <em>grob</em> objects"
 date: 2018-06-03
 category: R
-tags: [R package plot function ggplot2]
+tags: R package plot function ggplot2
 ---
 
 *<em>ggplotify</em> package: 

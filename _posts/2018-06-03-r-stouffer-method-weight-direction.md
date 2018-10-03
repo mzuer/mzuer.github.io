@@ -3,7 +3,7 @@ layout: post
 title: "R - implementation Stouffer's method with weight and direction'"
 date: 2018-06-03
 category: R
-tags: [R statistic]
+tags: R statistics
 ---
 
 Implementation of Stouffer's method with weight and direction

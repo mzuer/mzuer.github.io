@@ -3,7 +3,7 @@ layout: post
 title: "R - scatter plot with density colors"
 date: 2018-01-21
 category: R
-tags: [R, plot]
+tags: R plot
 ---
 
 

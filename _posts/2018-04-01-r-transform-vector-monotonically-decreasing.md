@@ -3,7 +3,7 @@ layout: post
 title: "R - make a vector monotonically decreasing (use <em>cummax</em> function)"
 date: 2018-04-01
 category: R
-tags: [R function]
+tags: R function
 ---
 
 To transform a vector with decreasing values but potentially not monotonic using <em>rev(cummax(rev(c(...))))</em>

@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>ggpol</em> package, parliament diagram and other extensions of <em>ggplot2</em> (e.g. mix box/scatterplots) "
 date: 2018-10-03
 category: R
-tags: [R plot package function ggplot2]
+tags: R plot package function ggplot2
 ---
 
 

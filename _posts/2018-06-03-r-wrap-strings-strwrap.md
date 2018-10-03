@@ -3,7 +3,7 @@ layout: post
 title: "R - wrap string with <em>strwrap</em>"
 date: 2018-06-03
 category: R
-tags: [R function string plot]
+tags: R function string plot
 ---
 
 <em>strwrap</em>: to wrap strings to format paragraphs (can be useful e.g. to break plot axis labels)

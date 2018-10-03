@@ -3,7 +3,7 @@ layout: post
 title: "R - drawing flowcharts in R and <em>Gmisc</em> package"
 date: 2018-06-03
 category: R
-tags: [R flowchart plot package]
+tags: R flowchart plot package
 ---
 
 Examples for drawing flowcharts in R:

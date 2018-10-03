@@ -3,7 +3,7 @@ layout: post
 title: "R - links to functions and packages to draw heatmaps"
 date: 2018-06-03
 category: R
-tags: [R package plot function heatmap]
+tags: R package plot function heatmap
 ---
 
 *<em>heatmap.2</em> function: 

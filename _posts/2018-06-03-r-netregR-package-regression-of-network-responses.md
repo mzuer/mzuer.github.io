@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>netregR</em> package for regression of network rdesponses"
 date: 2018-06-03
 category: R
-tags: [R statistics package network]
+tags: R statistics package network
 ---
 
 <em>netregR</em> package:

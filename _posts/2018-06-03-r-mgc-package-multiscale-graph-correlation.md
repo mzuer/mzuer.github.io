@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>mgc</em> package for multiscale graph correlation"
 date: 2018-06-03
 category: R
-tags: [R statistics package network]
+tags: R statistics package network
 ---
 
 <em>mgc</em> package:

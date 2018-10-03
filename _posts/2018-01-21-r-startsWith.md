@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>startsWith</em>"
 date: 2018-01-21
 category: R
-tags: [R, function, string]
+tags: R function string
 ---
 
 To test if a string starts with a certain pattern, more efficient than using <em>substr()</em> and testing equality:

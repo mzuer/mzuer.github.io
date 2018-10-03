@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>chromoMap</em>: R package for chromosome visualization"
 date: 2018-08-13
 category: R
-tags: [R package visualization plot]
+tags: R package visualization plot
 ---
 
 

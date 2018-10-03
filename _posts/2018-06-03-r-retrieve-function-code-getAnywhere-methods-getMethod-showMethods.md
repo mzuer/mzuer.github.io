@@ -3,7 +3,7 @@ layout: post
 title: "R - retrieve the code of a function using <em>getAnywhere</em> - <em>methods</em> - <em>getMethod</em> - <em>showMethods</em>"
 date: 2018-06-03
 category: R
-tags: [R function]
+tags: R function
 ---
 
 Retrieve the "hidden" code of function definition
