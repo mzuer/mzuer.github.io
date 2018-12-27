@@ -1,1 +1,0 @@
-/home/marie/Documents/github/mzuer_github_io/mzuer.github.io/_posts/2018-06-03-r-tileGenome-partition-genome.md
