@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - trim strings with <em>strtrim</em>"
+title: "R - trim strings with <em>strtrim()</em>"
 date: 2018-12-25
 category: R
 tags: R strings function

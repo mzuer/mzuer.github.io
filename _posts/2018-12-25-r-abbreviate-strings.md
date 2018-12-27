@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - abbreviate strings with <em>abbreviate</em>"
+title: "R - abbreviate strings with <em>abbreviate()</em>"
 date: 2018-12-25
 category: R
 tags: R function string

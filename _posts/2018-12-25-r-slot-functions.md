@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>slot</em> related functions"
+title: "R - <em>slot()</em> related functions"
 date: 2018-12-25
 category: R
 tags: R function object class

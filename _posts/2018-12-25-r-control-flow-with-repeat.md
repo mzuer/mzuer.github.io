@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - control flow with <em>repeat</em>"
+title: "R - control flow with <em>repeat{}</em>"
 date: 2018-12-25
 category: R
 tags: R flow

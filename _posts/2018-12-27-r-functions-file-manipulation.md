@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - file manipulation with <em>file.<...></em> functions"
+title: "R - file manipulation with <em>file.<...>()</em> functions"
 date: 2018-12-27
 category: R
 tags: R function files

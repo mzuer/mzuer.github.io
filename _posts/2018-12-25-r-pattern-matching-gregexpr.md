@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - pattern matching with <em>gregexpr</em>"
+title: "R - pattern matching with <em>gregexpr()</em>"
 date: 2018-12-25
 category: R
 tags: R function string regexpr

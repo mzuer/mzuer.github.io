@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>substring</em>: wrapper for <em>substr</em>"
+title: "R - <em>substring()</em>: wrapper for <em>substr()</em>"
 date: 2018-12-25
 category: R
 tags: R function string

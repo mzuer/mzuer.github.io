@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - symbolic number coding with <em>symnum</em>"
+title: "R - symbolic number coding with <em>symnum()</em>"
 date: 2018-12-25
 category: R
 tags: R function string

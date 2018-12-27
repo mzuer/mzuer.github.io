@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>casefold</em> as a wrapper for <em>tolower</em> and <em>toupper</em>"
+title: "R - <em>casefold()</em> as a wrapper for <em>tolower()</em> and <em>toupper()</em>"
 date: 2018-12-25
 category: R
 tags: R strings function

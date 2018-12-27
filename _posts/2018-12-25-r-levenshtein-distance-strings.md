@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>adist</em> to compute Levenshtein distance between strings"
+title: "R - <em>adist()</em> to compute Levenshtein distance between strings"
 date: 2018-12-25
 category: R
 tags: R function string distance

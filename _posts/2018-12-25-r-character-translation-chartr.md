@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - custom character translation (<em>chartr</em>)"
+title: "R - custom character translation (<em>chartr()</em>)"
 date: 2018-12-25
 category: R
 tags: R strings function

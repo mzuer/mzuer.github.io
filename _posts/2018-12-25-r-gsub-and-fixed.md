@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>fixed</em> argument in <em>gsub</em>: match as is"
+title: "R - <em>fixed</em> argument in <em>gsub()</em>: match as is"
 date: 2018-12-25
 category: R
 tags: R string regexpr

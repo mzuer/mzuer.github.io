@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - conversion between encodings with <em>iconv</em>"
+title: "R - conversion between encodings with <em>iconv()</em>"
 date: 2018-12-25
 category: R
 tags: R function string

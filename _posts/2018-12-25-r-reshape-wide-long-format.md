@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>reshape</em> data frame to wide/long format"
+title: "R - <em>reshape()</em> data frame to wide/long format"
 date: 2018-12-25
 category: R
 tags: R function dataframe

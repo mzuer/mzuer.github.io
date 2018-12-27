@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - string to integer conversion with <em>strtoi</em>"
+title: "R - string to integer conversion with <em>strtoi()</em>"
 date: 2018-12-25
 category: R
 tags: R function string

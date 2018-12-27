@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - check start (<em>startsWith</em>) and end (<em>endsWith</em>) of a string"
+title: "R - check start (<em>startsWith()</em>) and end (<em>endsWith()</em>) of a string"
 date: 2018-12-25
 category: R
 tags: R function string

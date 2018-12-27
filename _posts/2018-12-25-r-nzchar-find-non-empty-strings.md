@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>nzchar</em>: find non empty strings"
+title: "R - <em>nzchar()</em>: find non empty strings"
 date: 2018-12-25
 category: R
 tags: R function string

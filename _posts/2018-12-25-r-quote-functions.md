@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - string quote function (<em>sQuote</em>, <em>dQuote</em>)"
+title: "R - string quote function (<em>sQuote()</em>, <em>dQuote()</em>)"
 date: 2018-12-25
 category: R
 tags: R strings function
