@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>file.path</em>: construct path to file"
+title: "R - <em>file.path()</em>: construct path to file"
 date: 2017-10-15
 category: R
 tags: [R, function]

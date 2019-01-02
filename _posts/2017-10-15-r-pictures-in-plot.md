@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Add pictures in (scatter)plot"
+title: "R - Add pictures in (scatter)plot"
 date: 2017-10-15
 category: R
 tags: [R, plot]

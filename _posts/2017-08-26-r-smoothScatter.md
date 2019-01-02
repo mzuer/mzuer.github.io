@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>smoothScatter</em>: density plot bivariate data"
+title: "R - <em>smoothScatter()</em>: density plot bivariate data"
 date: 2017-08-26
 category: R
 tags: [R, plot, function]

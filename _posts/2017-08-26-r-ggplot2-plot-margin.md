@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ggplot2 theme(plot.margin = ...)"
+title: "R - ggplot2 theme(plot.margin = ...)"
 date: 2017-08-26
 category: R
 tags: [R, function, plot, ggplot2]

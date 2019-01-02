@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>endoapply</em> equivalent of <em>lapply</em> {S4Vectors}"
+title: "R - <em>endoapply()</em> equivalent of <em>lapply()</em> {S4Vectors}"
 date: 2017-08-26
 category: R
 tags: [R, function, list]

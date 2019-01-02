@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - read gz files"
+title: "R - read gz files using <em>read.table(gzfile(...))</em>"
 date: 2018-12-25
 category: R
 tags: R io table function package

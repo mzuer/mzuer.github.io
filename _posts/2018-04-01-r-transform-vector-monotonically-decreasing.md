@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - make a vector monotonically decreasing (use <em>cummax</em> function)"
+title: "R - make a vector monotonically decreasing (use <em>cummax()</em> function)"
 date: 2018-04-01
 category: R
 tags: R function

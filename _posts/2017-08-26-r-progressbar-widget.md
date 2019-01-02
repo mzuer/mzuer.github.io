@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>tkProgressBar</em>: progress bar widget"
+title: "R - <em>tkProgressBar()</em>: progress bar widget"
 date: 2017-08-26
 category: R
 tags: [R, function, loop]

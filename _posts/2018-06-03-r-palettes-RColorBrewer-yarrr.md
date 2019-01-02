@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - color palette packages: <em>RColorBrewer</em> and <em>yarrr</em>"
+title: "R - color palette packages: <em>RColorBrewer</em> (e.g. <em>brewer.pal()</em>) and <em>yarrr</em> (e.g. <em>piratepal()</em>)"
 date: 2018-06-03
 category: R
 tags: R package plot colors

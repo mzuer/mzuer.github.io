@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "combine multiplots with ggplot2"
+title: "R - combine multiplots with ggplot2"
 date: 2017-08-26
 category: R
 tags: [R, plot, ggplot2]

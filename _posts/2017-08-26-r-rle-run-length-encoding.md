@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>rle</em>: vector run length encoding"
+title: "R - <em>rle()</em>: vector run length encoding"
 date: 2017-08-26
 category: R
 tags: [R, function, vector]

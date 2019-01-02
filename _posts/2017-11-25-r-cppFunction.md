@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - C++ in R with <em>cppFunction</em>"
+title: "R - C++ in R with <em>cppFunction()</em>"
 date: 2017-11-25
 category: R
 tags: [R, Rcpp, C++]

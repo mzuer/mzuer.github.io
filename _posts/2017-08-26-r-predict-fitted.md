@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>predict</em> and <em>fitted</em>"
+title: "R - <em>predict()</em> and <em>fitted()</em>"
 date: 2017-08-26
 category: R
 tags: [R, function, model]

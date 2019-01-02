@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>gl</em>: generate factor levels"
+title: "R - <em>gl()</em>: generate factor levels"
 date: 2017-12-02
 category: R
 tags: [R, function, factor]

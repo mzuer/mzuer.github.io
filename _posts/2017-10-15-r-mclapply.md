@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>mclapply</em>: parallelized apply"
+title: "R - <em>mclapply()</em>: parallelized apply"
 date: 2017-10-15
 category: R
 tags: [R, function]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>matplot</em>: plot column of matrices"
+title: "R - <em>matplot()</em>: plot column of matrices"
 date: 2017-12-02
 category: R
 tags: [R, function, matrix, plot]

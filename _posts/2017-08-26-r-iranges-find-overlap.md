@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Example of usage of <em>IRanges::findOverlaps</em>"
+title: "R - Example of usage of <em>IRanges::findOverlaps()</em>"
 date: 2017-08-26
 category: R
 tags: [R, function, package]

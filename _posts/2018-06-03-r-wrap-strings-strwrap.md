@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - wrap string with <em>strwrap</em>"
+title: "R - wrap string with <em>strwrap()</em>"
 date: 2018-06-03
 category: R
 tags: R function string plot

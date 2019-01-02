@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test if a data frame row exists in an other data frame"
+title: "R - Test if a data frame row exists in an other data frame"
 date: 2017-08-26
 category: R
 tags: [R, data_frame, logic]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>reshape</em> and <em>xtabs</em>:transform columns to wide (matrix) format"
+title: "R - <em>reshape()</em> and <em>xtabs()</em>:transform columns to wide (matrix) format"
 date: 2017-12-02
 category: R
 tags: [R, function, data frame]

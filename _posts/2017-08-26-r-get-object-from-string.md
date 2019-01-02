@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>get</em>: call object from string"
+title: "R - <em>get()</em>: call object from string"
 date: 2017-08-26
 category: R
 tags: [R, function]

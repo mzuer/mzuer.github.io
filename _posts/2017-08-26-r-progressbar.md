@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>txtProgressBar, setTxtProgressBar</em>: progress bar for a loop"
+title: "R - <em>txtProgressBar()</em> and <em>setTxtProgressBar()</em>: progress bar for a loop"
 date: 2017-08-26
 category: R
 tags: [R, loop, function]

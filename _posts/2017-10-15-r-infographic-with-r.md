@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "infographic with R"
+title: "R - infographic with R"
 date: 2017-10-15
 category: R
 tags: [R, plot]

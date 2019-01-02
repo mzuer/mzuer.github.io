@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - contingency table (<em>addmargins</em> and <em>prop.table</em>)"
+title: "R - contingency table (<em>addmargins()</em> and <em>prop.table()</em>)"
 date: 2018-01-21
 category: R
 tags: [R, function]

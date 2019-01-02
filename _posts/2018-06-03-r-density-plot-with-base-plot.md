@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - density plot with R basic <em>plot</em>, <em>colorRampPalette</em>, <em>densCols</em> functions"
+title: "R - density plot with R basic <em>plot()</em>, <em>colorRampPalette()</em>, <em>densCols()</em> functions"
 date: 2018-06-03
 category: R
 tags: R plot

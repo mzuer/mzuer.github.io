@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - draw rotated <em>image</em>"
+title: "R - draw rotated <em>image()</em>"
 date: 2017-11-25
 category: R
 tags: [R, plots]

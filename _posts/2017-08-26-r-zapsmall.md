@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>zapsmall</em>: drop values to zero"
+title: "R - <em>zapsmall()</em>: drop values to zero"
 date: 2017-08-26
 category: R
 tags: [R, function]

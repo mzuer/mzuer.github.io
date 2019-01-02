@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - get input form user using <em>readline</em> function"
+title: "R - get input form user using <em>readline()</em> function"
 date: 2018-06-03
 category: R
 tags: R function

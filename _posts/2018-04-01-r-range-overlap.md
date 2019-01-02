@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - get overlap between intervals using functions from <em>IRanges</em>"
+title: "R - get overlap between intervals using functions from <em>IRanges</em> package"
 date: 2018-04-01
 category: R
 tags: R package function

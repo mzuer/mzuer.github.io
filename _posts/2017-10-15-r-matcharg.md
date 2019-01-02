@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>match.arg</em>: save output into file"
+title: "R - <em>match.arg()</em>: save output into file"
 date: 2017-10-15
 category: R
 tags: [R, function]

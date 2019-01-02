@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>read.table</em> with <em>textConnection</em>"
+title: "R - <em>read.table()</em> with <em>textConnection()</em>"
 date: 2018-01-02
 category: R
 tags: [R, function]

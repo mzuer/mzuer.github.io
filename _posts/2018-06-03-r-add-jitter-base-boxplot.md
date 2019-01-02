@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - add points with <em>jitter</em> in R base <em>plot</em>"
+title: "R - add points with <em>jitter()</em> in R base plot"
 date: 2018-06-03
 category: R
 tags: R plot function

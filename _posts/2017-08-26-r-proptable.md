@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>prop.table</em>:  compute proportion table"
+title: "R - <em>prop.table()</em>:  compute proportion table"
 date: 2017-08-26
 category: R
 tags: [R, function, matrix]

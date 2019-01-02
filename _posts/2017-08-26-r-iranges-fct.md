@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Functions of the <em>IRanges</em>"
+title: "R - Functions from the <em>IRanges</em> package"
 date: 2017-08-26
 category: R
 tags: [R, function, package]

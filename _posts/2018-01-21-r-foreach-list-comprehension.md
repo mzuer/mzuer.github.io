@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>foreach</em> list comprehension"
+title: "R - use of <em>foreach()</em> for list comprehension"
 date: 2018-01-21
 category: R
 tags: [R, function, parallelization, loop]

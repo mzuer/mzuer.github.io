@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - retrieve the code of a function using <em>getAnywhere</em> - <em>methods</em> - <em>getMethod</em> - <em>showMethods</em>"
+title: "R - retrieve the code of a function using <em>getAnywhere()</em>, <em>methods()</em>, <em>getMethod()</em> and <em>showMethods()</em> functions"
 date: 2018-06-03
 category: R
 tags: R function

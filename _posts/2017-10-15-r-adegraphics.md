@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>adegraphics</em>: improved plotting functions for multivariate analyses"
+title: "R - <em>adegraphics</em> package: improved plotting functions for multivariate analyses"
 date: 2017-10-15
 category: R
 tags: [R, package]

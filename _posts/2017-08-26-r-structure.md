@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>structure</em>"
+title: "R - <em>structure()</em>"
 date: 2017-08-26
 category: R
 tags: [R, function]

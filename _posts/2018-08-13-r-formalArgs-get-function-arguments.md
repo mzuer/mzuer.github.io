@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>formalArgs</em> and <em>args</em>: functions retrieve the formal arguments of a function"
+title: "R - <em>formalArgs()</em> and <em>args()</em>: functions retrieve the formal arguments of a function"
 date: 2018-08-13
 category: R
 tags: R function

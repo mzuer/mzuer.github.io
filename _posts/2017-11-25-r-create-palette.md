@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - create palette"
+title: "R - create palette with basic <em>colorRampPalette()</em>"
 date: 2017-11-25
 category: R
 tags: [R, colors]

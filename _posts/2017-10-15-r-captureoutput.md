@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>capture.output</em>: save output into file"
+title: "R - <em>capture.output()</em>: save output into file (outputs from <em>summary</em>, <em>lm</em>, etc.)"
 date: 2017-10-15
 category: R
 tags: [R, function]

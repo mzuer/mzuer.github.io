@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - put only some words of the titles in italic with <em>substitute</em>"
+title: "R - put only some words of the titles in italic with <em>substitute()</em>"
 date: 2018-01-02
 category: R
 tags: [R, plot, function]

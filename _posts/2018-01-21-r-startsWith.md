@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>startsWith</em>"
+title: "R - <em>startsWith()</em>: test if string starts with a given pattern"
 date: 2018-01-21
 category: R
 tags: R function string

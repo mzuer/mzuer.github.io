@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "avoid ifelse"
+title: "R - avoid ifelse"
 date: 2017-08-26
 category: R
 tags: [R, logic]

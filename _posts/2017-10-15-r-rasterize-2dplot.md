@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>raseterize</em>: 2D raster pixel plot with color code"
+title: "R - <em>raseterize()</em>: 2D raster pixel plot with color code"
 date: 2017-10-15
 category: R
 tags: [R, plot]

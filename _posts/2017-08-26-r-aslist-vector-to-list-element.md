@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>as.list</em>: convert element of a vector to element of list"
+title: "R - <em>as.list()</em>: convert element of a vector to element of list"
 date: 2017-08-26
 category: R
 tags: [R, function, vector, list]

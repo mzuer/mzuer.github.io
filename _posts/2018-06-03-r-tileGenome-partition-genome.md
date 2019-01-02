@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>tileGenome</em> function to partition genome (from <em>GenomicRanges</em> package)"
+title: "R - <em>tileGenome()</em> function to partition genome (from <em>GenomicRanges</em> package)"
 date: 2018-06-03
 category: R
 tags: R function output

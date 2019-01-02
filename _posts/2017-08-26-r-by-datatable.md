@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>by</em> and <em>data.table</em>: select data frame on > 1 criterion (e.g. select min start and max end)"
+title: "R - <em>by()</em> and <em>data.table</em>: select data frame on > 1 criterion (e.g. select min start and max end)"
 date: 2017-08-26
 category: R
 tags: [R, function, data_frame]

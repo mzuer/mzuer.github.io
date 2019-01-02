@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>pmin</em> and <em>pmax</em>: parallel minima and maxima"
+title: "R - <em>pmin()</em> and <em>pmax()</em>: parallel minima and maxima"
 date: 2017-08-26
 category: R
 tags: [R, logic]

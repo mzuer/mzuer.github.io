@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>officer</em> package: create office documents with R"
+title: "R - <em>officer</em> package: create office documents with R"
 date: 2017-10-15
 category: R
 tags: [R, package]

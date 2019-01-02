@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>margin.table</em>:  compute margin  of a matrix"
+title: "R - <em>margin.table()</em>:  compute margin  of a matrix"
 date: 2017-08-26
 category: R
 tags: [R, function, matrix]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>do.call</em> with <em>rbind</em>: operate on data frame"
+title: "R <em>do.call()</em> with <em>rbind()</em>: operate on data frame"
 date: 2017-10-15
 category: R
 tags: [R, function]

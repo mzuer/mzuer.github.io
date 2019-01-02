@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - by-group calculation with <em>Map</em> and <em>mcMap</em>"
+title: "R - by-group calculation with <em>Map()</em> and <em>mcMap()</em>"
 date: 2018-10-03
 category: R
 tags: R function parallel

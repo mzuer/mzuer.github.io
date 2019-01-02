@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>plot</em> with 2 y-axes (1 left, 1 right)"
+title: "R - <em>plot()</em> with 2 y-axes (1 left, 1 right)"
 date: 2017-08-26
 category: R
 tags: [R, function, plot]

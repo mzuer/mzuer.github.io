@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>writeLines</em> to write to a connection"
+title: "R - <em>writeLines()</em> to write to a connection"
 date: 2018-06-03
 category: R
 tags: R function output

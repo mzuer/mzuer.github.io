@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<em>on.exit</em>: argument to execute before exit"
+title: "R - <em>on.exit()</em>: argument to execute before exit"
 date: 2017-10-15
 category: R
 tags: [R, plot]

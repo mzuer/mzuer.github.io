@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>mosaicplot</em> a dataframe"
+title: "R - <em>mosaicplot()</em> a dataframe"
 date: 2018-01-21
 category: R
 tags: [R, plot]

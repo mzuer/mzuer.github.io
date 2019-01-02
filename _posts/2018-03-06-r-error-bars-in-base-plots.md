@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - draw error bars in R base plot with <em>arrows</em>"
+title: "R - draw error bars in R base plot with <em>arrows()</em>"
 date: 2018-06-03
 category: R
 tags: R plot

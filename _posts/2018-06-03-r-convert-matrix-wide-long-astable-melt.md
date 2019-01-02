@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - convert matrix wide to long format with <em>as.table</em> or <em>melt</em>"
+title: "R - convert matrix wide to long format with <em>as.table()</em> or <em>melt()</em>"
 date: 2018-06-03
 category: R
 tags: R function matrix data_frame

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - list element matching"
+title: "R - list element matching (usage of <em>%in%</em> with lists)"
 date: 2018-01-21
 category: R
 tags: [R, data_structure]
