@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - 3 functions to plot scatterplot matrices"
+title: "R - 3 functions to plot scatterplot matrices (<em>base::pairs()</em>, <em>ggplot2::ggpairs()</em>, <em>lattice::splom</em>)"
 date: 2018-12-25
 category: R
 tags: R plot ggplot2 lattice visualization
