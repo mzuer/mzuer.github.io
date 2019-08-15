@@ -1,0 +1,42 @@
+---
+layout: tagpage
+title: "All tags"
+---
+    <li><a href="mzuer.github.io/tag/bash.md">bash</a></li>
+    <li><a href="mzuer.github.io/tag/C++.md">C++</a></li>
+    <li><a href="mzuer.github.io/tag/command_line.md">command_line</a></li>
+    <li><a href="mzuer.github.io/tag/compbio.md">compbio</a></li>
+    <li><a href="mzuer.github.io/tag/condition.md">condition</a></li>
+    <li><a href="mzuer.github.io/tag/factor.md">factor</a></li>
+    <li><a href="mzuer.github.io/tag/file.md">file</a></li>
+    <li><a href="mzuer.github.io/tag/function.md">function</a></li>
+    <li><a href="mzuer.github.io/tag/machine_learning.md">machine_learning</a></li>
+    <li><a href="mzuer.github.io/tag/matrix.md">matrix</a></li>
+    <li><a href="mzuer.github.io/tag/module.md">module</a></li>
+    <li><a href="mzuer.github.io/tag/object.md">object</a></li>
+    <li><a href="mzuer.github.io/tag/plot.md">plot</a></li>
+    <li><a href="mzuer.github.io/tag/python.md">python</a></li>
+    <li><a href="mzuer.github.io/tag/Rcpp.md">Rcpp</a></li>
+    <li><a href="mzuer.github.io/tag/Rstudio.md">Rstudio</a></li>
+    <li><a href="mzuer.github.io/tag/book.md">book</a></li>
+    <li><a href="mzuer.github.io/tag/package.md">package</a></li>
+    <li><a href="mzuer.github.io/tag/statistics.md">statistics</a></li>
+    <li><a href="mzuer.github.io/tag/algorithm.md">algorithm</a></li>
+    <li><a href="mzuer.github.io/tag/parallel.md">parallel</a></li>
+    <li><a href="mzuer.github.io/tag/plots.md">plots</a></li>
+    <li><a href="mzuer.github.io/tag/data_structure.md">data_structure</a></li>
+    <li><a href="mzuer.github.io/tag/data_frame.md">data_frame</a></li>
+    <li><a href="mzuer.github.io/tag/flowchart.md">flowchart</a></li>
+    <li><a href="mzuer.github.io/tag/heatmap.md">heatmap</a></li>
+    <li><a href="mzuer.github.io/tag/bioconductor.md">bioconductor</a></li>
+    <li><a href="mzuer.github.io/tag/string.md">string</a></li>
+    <li><a href="mzuer.github.io/tag/colors.md">colors</a></li>
+    <li><a href="mzuer.github.io/tag/color.md">color</a></li>
+    <li><a href="mzuer.github.io/tag/palette.md">palette</a></li>
+    <li><a href="mzuer.github.io/tag/colors.md">colors</a></li>
+    <li><a href="mzuer.github.io/tag/palettes.md">palettes</a></li>
+    <li><a href="mzuer.github.io/tag/machine_learning.md">machine_learning</a></li>
+    <li><a href="mzuer.github.io/tag/boolean.md">boolean</a></li>
+    <li><a href="mzuer.github.io/tag/compbio.md">compbio</a></li>
+    <li><a href="mzuer.github.io/tag/R.md">R</a></li>
+    <li><a href="mzuer.github.io/tag/list.md">list</a></li>
