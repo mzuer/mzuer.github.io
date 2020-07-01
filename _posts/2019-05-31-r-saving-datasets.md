@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - save datasets (<em>save()</em>,<em>saveRDS()</em>, <em>write.table()</em>, <em>WriteXLS()</em>)
+title: "R - save datasets (<em>save()</em>,<em>saveRDS()</em>, <em>write.table()</em>, <em>WriteXLS()</em>)"
 date: 2019-05-31
 category: R
 tags: R function objects save

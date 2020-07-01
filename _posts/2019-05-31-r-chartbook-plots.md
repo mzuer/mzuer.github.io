@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - plots (interactive charts) with <em>chartbookR</em> package
+title: "R - plots (interactive charts) with <em>chartbookR</em> package"
 date: 2019-05-31
 category: R
 tags: R function package plots

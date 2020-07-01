@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R - <em>plot(..., bty="l")</em>: no box but lines"
+title: "R - <em>plot(..., bty='l')</em>: no box but lines"
 date: 2017-08-26
 category: R
 tags: [R, function, plot]
