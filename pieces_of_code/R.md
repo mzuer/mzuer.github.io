@@ -1,10 +1,33 @@
 ---
 layout: default
-title: "Pieces of code"
+title: "Pieces of code - R"
 ---
-    <li><a href="R">R</a></li>
-    <li><a href="python">Pyton</a></li>
-    <li><a href="latex">LaTeX</a></li>
-    <li><a href="bash">bash</a></li>
 
 
+### Theme for ggplot2
+
+```{r}
+
+theme(
+	axis.legend = ()
+)
+
+``` 
+
+### Density plot
+
+```{r}
+
+density_plot <- function(){
+}
+
+``` 
+
+### Print text function plot
+
+```{r}
+
+density_plot <- function(){
+}
+
+``` 
