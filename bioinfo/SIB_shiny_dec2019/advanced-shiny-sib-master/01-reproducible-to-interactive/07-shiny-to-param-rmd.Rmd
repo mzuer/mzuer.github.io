@@ -1,0 +1,23 @@
+---
+output: html_document
+params:
+  selected_am: 0
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+
+selected_am <- as.numeric(as.character(params$selected_am))
+
+am_mean <- mtcars %>% 
+      filter(am == selected_am) %>% 
+      summarise(mean(mpg)) %>% 
+      pull() %>%
+      round(2)
+am_character <- ifelse(selected_am == 0, "automatic", "manual")
+```
+
+Average mileage of `r am_character` cars is `r am_mean` miles/gallon.
+
+# => cf better solution in the 08-shiny-to-param-rmd.Rmd file !
+# set "value" and "choices" in the header section !

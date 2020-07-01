@@ -1,0 +1,34 @@
+library(GGally)
+library(dplyr)
+
+# import
+cheese <- rxImport(inData = “/media/sf_docVM/cheese.txt")
+str(cheese)
+summary(cheese[,-c(1,2)])
+
+#
+cheese %>%
+    select(-c(.rxRowNames, Case)) %>%
+    GGally::ggpairs(title = "without transformation")
+
+#with transformation
+cheese %>%
+    select(-c(.rxRowNames, Case)) %>%
+    mutate_all(funs(log2)) %>%
+    GGally::ggpairs(title = "log2 transformation")
+
+#Boxcox transformation
+apply(cheese[,-c(1,2)], 2, function(x) caret::BoxCoxTrans(x)$lambda)
+caret::BoxCoxTrans(cheese$Lactic[-3])$lambda # exclude negative value...
+
+cheese %>%
+    select(-c(.rxRowNames, Case)) %>%
+    mutate(taste_boxcox = taste^.6,
+           Acetic_log = log2(Acetic),
+           H2S_boxcox = H2S^-.1,
+           Lactic_boxcox = Lactic^.5) %>%
+    select(-c(taste:Lactic)) -> cheese_trans
+cheese_trans %>%
+    GGally::ggpairs(title = "log2 & box-cox transformation")
+rxLinMod(formula = taste_boxcox ~ H2S_boxcox, data = cheese_trans) %>% summary
+rxLinMod(formula = taste_boxcox ~ H2S_boxcox+Lactic_boxcox, data = cheese_trans) %>% summary
