@@ -9,12 +9,12 @@ title: "Bioinformatics courses"
 ### Advanced Shiny
 
  <ol>
-  <li>welcome: <a href="SIB_shiny_dec2019/00-welcome.pdf">slides</a>, <a href="SIB_shiny_dec2019/00-welcome.pdf">scripts</a></li>
-  <li>reproducible to interactive: <a href="SIB_shiny_dec2019/01-reproducible-to-interactive.pdf">slides</a>, <a href="SIB_shiny_dec2019/01-reproducible-to-interactive">scripts</a></li>
-  <li>building ui: <a href="SIB_shiny_dec2019/02-building-ui.pdf">slides</a>, <a href="SIB_shiny_dec2019/02-building-ui">scripts</a></li>
-  <li>reactive programming: <a href="SIB_shiny_dec2019/03-reactive-programming.pdf">slides</a>, <a href="SIB_shiny_dec2019/03-react-prog">scripts</a></li>
-  <li>modules: <a href="SIB_shiny_dec2019/04-modules.pdf">slides</a>, <a href="SIB_shiny_dec2019/04-modules">scripts</a></li>
-  <li>troubleshooting: <a href="SIB_shiny_dec2019/05-troubleshooting.pdf">slides</a>, <a href="SIB_shiny_dec2019/05-troubleshooting">scripts</a></li>
+  <li>welcome: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/00-welcome.pdf">slides</a>, <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/00-welcome.pdf">scripts</a></li>
+  <li>reproducible to interactive: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/01-reproducible-to-interactive.pdf">slides</a>, <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/01-reproducible-to-interactive">scripts</a></li>
+  <li>building ui: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/02-building-ui.pdf">slides</a>, <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/02-building-ui">scripts</a></li>
+  <li>reactive programming: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/03-reactive-programming.pdf">slides</a>, <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/03-react-prog">scripts</a></li>
+  <li>modules: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/04-modules.pdf">slides</a>, <a href="SIB_shiny_dec2019/04-modules">scripts</a></li>
+  <li>troubleshooting: <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/05-troubleshooting.pdf">slides</a>, <a href="SIB_shiny_dec2019/advanced-shiny-sib-master/05-troubleshooting">scripts</a></li>
 </ol> 
 
 
