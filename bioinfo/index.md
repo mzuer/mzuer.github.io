@@ -96,7 +96,6 @@ Day 3: <a href="SIB_advancedR_2017/day3.R">R</a>
 
 <a href="SIB_machine_learning_Autumn_School_2017/day4/ML-for-microbial-communities-master/Machine_Learning_for_Microbial_Communities.html">html</a>, <a href="SIB_machine_learning_Autumn_School_2017/day4/ML-for-microbial-communities-master/Machine_Learning_for_Microbial_Communities.ipynb">ipynb</a>
 
-
 ###### Python image tutorial
 
 <a href="SIB_machine_learning_Autumn_School_2017/day4/python-image-tutorial-master/Machine_Learning_for_Microbial_Communities.html">html</a>, <a href="SIB_machine_learning_Autumn_School_2017/day4/python-image-tutorial-master/Machine_Learning_for_Microbial_Communities.ipynb">ipynb</a>

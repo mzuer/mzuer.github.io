@@ -3,39 +3,25 @@ layout: default
 title: "Online books"
 ---
 
-A Whirlwind Tour of Python by VanderPlas
-https://github.com/jakevdp/WhirlwindTourOfPython
+* <a href="https://github.com/jakevdp/WhirlwindTourOfPython">A Whirlwind Tour</a> of Python by VanderPlas
 
+* <a href="https://bookdown.org/rdpeng/rprogdatascience/">R programming for data science</a> by Peng
 
-R programming for data science by Peng
-https://bookdown.org/rdpeng/rprogdatascience/
+* <a href="http://www.web.stanford.edu/~hastie/ElemStatLearn/">The elements of statistical learning</a> by Hastie et al.
 
+* <a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> by Nielsen
 
-The Elements of
-Statistical Learning: Hastie et al.
-http://www.web.stanford.edu/~hastie/ElemStatLearn/
+* <a href="https://rd.springer.com/book/10.1007/978-3-319-94463-0">Neural Networks and Deep Learning</a> by Aggarwal
 
+* <a href="http://www.deeplearningbook.org/">Deep Learning</a> by Goodfellow  et al. 
 
-Neural Networks and Deep Learning Nielsen
-http://neuralnetworksanddeeplearning.com/
+* <a href="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf">Pattern Recognition And Machine Learning</a> by Bishop
 
-Neural Networks and Deep Learning Aggarwal
-https://rd.springer.com/book/10.1007/978-3-319-94463-0
+* <a href="https://d2l.ai/index.html">Dive into Deep Learning</a> by Zhang et al. 
 
+* <a href="https://riptutorial.com/ebook/tensorflow">Learning tensorflow</a> by RIP Tutorial
 
-Deep Learning Goodfellow  et al. 
-http://www.deeplearningbook.org/
+* <a href="https://git-scm.com/book/en/v2">Pro Git Book</a>
 
-/Bishop - Pattern Recognition And Machine Learning - http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+* <a href="https://adv-r.hadley.nz/index.html">Avanced R</a> by Wickham
 
-Dive into Deep Learning Zhang et al. 
-https://d2l.ai/index.html
-
-Learning tensorflow RIP Tutorial
-https://riptutorial.com/ebook/tensorflow
-
-Pro Git Book 
-https://git-scm.com/book/en/v2
-
-Avanced R Wickham
-https://adv-r.hadley.nz/index.html
