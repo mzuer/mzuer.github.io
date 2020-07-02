@@ -3,9 +3,17 @@ layout: default
 title: "Online books"
 ---
 
-* <a href="https://github.com/jakevdp/WhirlwindTourOfPython">A Whirlwind Tour</a> of Python by VanderPlas
+##### R
 
 * <a href="https://bookdown.org/rdpeng/rprogdatascience/">R programming for data science</a> by Peng
+
+* <a href="https://adv-r.hadley.nz/index.html">Avanced R</a> by Wickham
+
+##### Python
+
+* <a href="https://github.com/jakevdp/WhirlwindTourOfPython">A Whirlwind Tour</a> of Python by VanderPlas
+
+##### Statistics and machine learning
 
 * <a href="http://www.web.stanford.edu/~hastie/ElemStatLearn/">The elements of statistical learning</a> by Hastie et al.
 
@@ -21,7 +29,10 @@ title: "Online books"
 
 * <a href="https://riptutorial.com/ebook/tensorflow">Learning tensorflow</a> by RIP Tutorial
 
+##### Bash
+
+* <a href="http://tldp.org/LDP/abs/html/index.html">Advanced Bash-Scripting Guide</a> by Cooper
+
+##### Git
+
 * <a href="https://git-scm.com/book/en/v2">Pro Git Book</a>
-
-* <a href="https://adv-r.hadley.nz/index.html">Avanced R</a> by Wickham
-
