@@ -36,3 +36,6 @@ https://riptutorial.com/ebook/tensorflow
 
 Pro Git Book 
 https://git-scm.com/book/en/v2
+
+Avanced R Wickham
+https://adv-r.hadley.nz/index.html

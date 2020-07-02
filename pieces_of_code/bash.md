@@ -53,3 +53,24 @@ do
     mkdir ${OUTDIR}/${SAMPLE}
 done
 ```
+
+
+
+### Copy to new file with substituted file name
+
+```{bash}
+cp top-words-{1,2}.sh # copy 1 to 2
+```
+
+### Space usage by disks: 
+
+```
+df -h
+```
+
+### Space usage for a given folder:
+
+```
+du -sh FOLDER_NAME
+```
+
