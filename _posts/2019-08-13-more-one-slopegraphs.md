@@ -3,7 +3,7 @@ layout: post
 title: "More on slopegraphs"
 date: 2019-08-13
 category: R
-tags: R plots
+tags: R plot
 ---
 
 

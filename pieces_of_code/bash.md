@@ -4,6 +4,19 @@ title: "Pieces of code- Bash"
 ---
 
 
+
+### Find file with specific content 
+
+```{bash}
+find . -type f -name '*.R' -exec grep -l "pattern"  {} \;
+```
+
+similar to:
+
+```
+find folder -type f -name '*.R' | xargs  grep "pattern"
+```
+
 ### Print start/end of a script
 
 ```{bash}

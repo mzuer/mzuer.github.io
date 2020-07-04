@@ -3,7 +3,7 @@ layout: post
 title: "R - draw hybrid ggplot2 plots with <em>gghalves</em>"
 date: 2020-05-30
 category: R
-tags: R visualization plots package ggplot2 function
+tags: R visualization plot package ggplot2 function
 ---
 
 https://cran.r-project.org/web/packages/gghalves/vignettes/gghalves.html

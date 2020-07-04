@@ -3,7 +3,7 @@ layout: post
 title: "R - Venn diagrams <em>vs.</em> UpSet plots"
 date: 2019-05-31
 category: R
-tags: R package plots
+tags: R package plot
 ---
 
 

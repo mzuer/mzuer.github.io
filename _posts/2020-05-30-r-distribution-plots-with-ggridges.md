@@ -3,7 +3,7 @@ layout: post
 title: "R - draw distribution plots with <em>geom_density_ridges()</em> from <em>ggridges</em>"
 date: 2020-05-30
 category: R
-tags: R visualization plots package ggplot2
+tags: R visualization plot package ggplot2
 ---
 
 https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html

@@ -3,7 +3,7 @@ layout: post
 title: "R - waffle plots with <em>waffle</em> package"
 date: 2019-08-13
 category: R
-tags: R package plots
+tags: R package plot
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>curve()</em>: add curve on base plot"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, plot]
 ---
 
 Add a curve on existing plot:

@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>suppressPackageStartupMessages()</em>"
 date: 2020-05-30
 category: R
-tags: R function packages
+tags: R function package
 ---
 
 <em>suppressPackageStartupMessages()</em> 

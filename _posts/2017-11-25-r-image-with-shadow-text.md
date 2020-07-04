@@ -3,7 +3,7 @@ layout: post
 title: "R - add shadow text on plot"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, plot]
 ---
 
 

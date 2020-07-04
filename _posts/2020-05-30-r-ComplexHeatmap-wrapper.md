@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>tidyHeatmap</em>: tidy wrapper package for <em>ComplexHeatmap</em>"
 date: 2020-05-30
 category: R
-tags: R visualization plots package
+tags: R visualization plot package
 ---
 
 Tidy wrapper of the package <em>ComplexHeatmap</em>. The goal of this package is to interface tidy data frames with this powerful tool.

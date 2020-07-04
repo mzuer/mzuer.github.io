@@ -3,7 +3,7 @@ layout: post
 title: "R - draw and save plots from <em>plotly</em>"
 date: 2020-05-30
 category: R
-tags: R package visualization plots
+tags: R package visualization plot
 ---
 
 ```

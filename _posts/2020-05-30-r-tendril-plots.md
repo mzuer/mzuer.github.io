@@ -3,7 +3,7 @@ layout: post
 title: "R - draw Tendril plots with the <em>Tendril</em> package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package
+tags: R function visualization plot package
 ---
 
 https://cran.r-project.org/web/packages/Tendril/vignettes/TendrilUsage.html

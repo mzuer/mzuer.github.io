@@ -3,7 +3,7 @@ layout: post
 title: "R - draw sinaplots with <em>geom_sina()</em> from <em>ggforce</em> package"
 date: 2020-05-30
 category: R
-tags: R ggplot2 package plots visualization function
+tags: R ggplot2 package plot visualization function
 ---
 
 <em>geom_sina()</em> from <em>ggforce</em> package:

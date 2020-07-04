@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>viridis</em> package - color palettes"
 date: 2019-05-31
 category: R
-tags: R package plots color colors palette
+tags: R package plot colors palettes
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>barplot3d</em> package: draw 3D barplot"
 date: 2020-05-30
 category: R
-tags: R visualization package plots
+tags: R visualization package plot
 ---
 
 <em>barplot3d</em>: Creates 3D barplots. 

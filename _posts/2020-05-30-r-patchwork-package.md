@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>patchwork</em>: package for assembling ggplots"
 date: 2020-05-30
 category: R
-tags: R ggplot2 package plots visualization
+tags: R ggplot2 package plot visualization
 ---
 
 <em>patchwork</em>: nice package for assembling plots from ggplot2

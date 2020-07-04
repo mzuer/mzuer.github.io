@@ -3,7 +3,7 @@ layout: post
 title: "R - draw mosaic plots with <em>mosaic()</em> from <em>vcd</em> package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package
+tags: R function visualization plot package
 ---
 
 http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/#mosaic-plot

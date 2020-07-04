@@ -3,7 +3,7 @@ layout: post
 title: "R - draw genes in ggplot2 plots with <em>gggenes</em>"
 date: 2020-05-30
 category: R
-tags: R visualization plots package ggplot2 function genomics
+tags: R visualization plot package ggplot2 function genomics
 ---
 
 

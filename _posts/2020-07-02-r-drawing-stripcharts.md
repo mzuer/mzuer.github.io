@@ -3,7 +3,7 @@ layout: post
 title: "R - stripcharts instead of boxplots"
 date: 2020-07-02
 category: R
-tags: [R, ggplot2, visualization, plots]
+tags: [R, ggplot2, visualization, plot]
 ---
 
 

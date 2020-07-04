@@ -3,7 +3,7 @@ layout: post
 title: "R - draw balloon plots with <em>ggballoonplot()</em> from <em>ggpubr</em>"
 date: 2020-05-30
 category: R
-tags: R function ggplot2 visualization plots package
+tags: R function ggplot2 visualization plot package
 ---
 
 http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/#balloon-plot

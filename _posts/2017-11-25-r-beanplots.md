@@ -3,7 +3,7 @@ layout: post
 title: "R - bean plots: <em>beanplot()</em> function from <em>beanplot</em> package"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, plot]
 ---
 
 R bean plots

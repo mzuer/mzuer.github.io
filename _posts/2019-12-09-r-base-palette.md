@@ -3,7 +3,7 @@ layout: post
 title: "R - changes (and use) of default R palette"
 date: 2019-12-09
 category: R
-tags: R plot visualization palette
+tags: R plot visualization palettes
 ---
 
 Changes and use of the default R palette

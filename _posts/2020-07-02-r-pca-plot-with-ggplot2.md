@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>ggbiplot()</em>: plot of PCA results with <em>ggplot2</em>"
 date: 2020-07-02
 category: R
-tags: [R, ggplot2, visualization, plots, functions, packages]
+tags: [R, ggplot2, visualization, plot, functions, packages]
 ---
 
 

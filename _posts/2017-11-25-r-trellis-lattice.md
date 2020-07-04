@@ -3,7 +3,7 @@ layout: post
 title: "R - trellis (lattice plots)"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, plot]
 ---
 
 http://ml.stat.purdue.edu/stat695t/writings/Trellis.User.pdf

@@ -3,7 +3,7 @@ layout: post
 title: "R - segmented column charts with <em>ggchicklet</em> package"
 date: 2019-08-13
 category: R
-tags: R package plots
+tags: R package plot
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>ggstatsplot</em> package: extension of <em>ggplot2</em> for statistical details"
 date: 2020-07-01
 category: R
-tags: [R,package, plots, ggplot2, statistics]
+tags: [R,package, plot, ggplot2, statistics]
 ---
 
 ggstatsplot: 'ggplot2' Based Plots with Statistical Details

@@ -3,7 +3,7 @@ layout: post
 title: "R - draw rotated <em>image()</em>"
 date: 2017-11-25
 category: R
-tags: [R, plots]
+tags: [R, plot]
 ---
 
 Rotate the initial matrix => (0;0) on start top left, instead of bottom right 

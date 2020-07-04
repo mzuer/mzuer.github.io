@@ -3,7 +3,7 @@ layout: post
 title: "R - <em>rpart()</em> to fit and <em>rpart.plot()</em> for fitting and visualizing decision trees"
 date: 2020-07-02
 category: R
-tags: [R, functions, packages, machine_learning, plots]
+tags: [R, function, package, machine_learning, plot]
 ---
 
 

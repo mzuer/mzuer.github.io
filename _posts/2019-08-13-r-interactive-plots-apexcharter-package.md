@@ -3,7 +3,7 @@ layout: post
 title: "R - interactive plots with <em>apexcharter</em> package"
 date: 2019-08-13
 category: R
-tags: R package plots
+tags: R package plot
 ---
 
 

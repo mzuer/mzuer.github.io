@@ -3,7 +3,7 @@ layout: post
 title: "R - paste plots from R to Word with <em>devEMF</em> package"
 date: 2020-05-30
 category: R
-tags: R package plots visualization function
+tags: R package plot visualization function
 ---
 
 

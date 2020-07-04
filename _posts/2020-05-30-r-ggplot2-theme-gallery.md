@@ -3,7 +3,7 @@ layout: post
 title: "R - generate gallery of ggplot2 themes"
 date: 2020-05-30
 category: R
-tags: R visualization plots ggplot2
+tags: R visualization plot ggplot2
 ---
 
 Post with code to generate gallery of ggplot2 themes (can also directly see them there)

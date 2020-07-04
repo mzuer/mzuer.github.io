@@ -3,7 +3,7 @@ layout: post
 title: "R - spectrograms plot"
 date: 2018-10-03
 category: R
-tags: R plots
+tags: R plot
 ---
 
 

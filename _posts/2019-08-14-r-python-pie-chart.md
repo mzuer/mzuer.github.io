@@ -3,7 +3,7 @@ layout: post
 title: "Pie charts with <em>ggplot</em> in R and <em>pd.plot</em> in Python"
 date: 2019-08-14
 category: R
-tags: R function python plots 
+tags: R function python plot 
 ---
 
 * <em>coord_polar()</em> to plot pies with <em>ggplot()</em> in R

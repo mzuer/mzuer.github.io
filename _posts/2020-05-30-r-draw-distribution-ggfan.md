@@ -3,7 +3,7 @@ layout: post
 title: "R - distribution plots with <em>geo_fan()</em> from <em>ggfan</em> package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package ggplot2
+tags: R function visualization plot package ggplot2
 ---
 
 the <em>fanplot</em> package provides methods to visualise probability distributions by representing intervals of the distribution function with colours.

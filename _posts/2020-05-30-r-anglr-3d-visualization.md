@@ -3,7 +3,7 @@ layout: post
 title: "R - 3D visualization with <em>anglr</em> package"
 date: 2020-05-30
 category: R
-tags: R plots visualization package
+tags: R plot visualization package
 ---
 
 https://cran.r-project.org/web/packages/anglr/vignettes/anglr.htmlwidgets

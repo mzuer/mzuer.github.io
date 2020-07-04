@@ -3,7 +3,7 @@ layout: post
 title: "R - draw mosaic plots with <em>geom_mosaic()</em> from <em>ggmosaic</em> package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package ggplot2
+tags: R function visualization plot package ggplot2
 ---
 
 http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/#mosaic-plot

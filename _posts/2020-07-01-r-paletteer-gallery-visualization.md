@@ -3,7 +3,7 @@ layout: post
 title: "R - visualization full <em>paletteer</em> gallery"
 date: 2020-07-01
 category: R
-tags: [R, palette, package, visualization, plot, colors]
+tags: [R, palettes, package, visualization, plot, colors]
 ---
 
 

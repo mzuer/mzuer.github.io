@@ -3,7 +3,7 @@ layout: post
 title: "R - high-order functions"
 date: 2017-11-25
 category: R
-tags: [R, functions]
+tags: [R, function]
 ---
 
 Reduce(f, x, init, right = FALSE, accumulate = FALSE)

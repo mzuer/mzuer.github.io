@@ -3,7 +3,7 @@ layout: post
 title: "R - improved text rendering of ggplot2 plots with <em>mdthemes</em> package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package ggplot2 text
+tags: R function visualization plot package ggplot2 text
 ---
 
 See also <em>ggtext</em> package ! 

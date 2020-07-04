@@ -3,7 +3,7 @@ layout: post
 title: "R - customized ggplot2 boxplots"
 date: 2018-01-02
 category: R
-tags: [R, plots, ggplot2]
+tags: [R, plot, ggplot2]
 ---
 
 Change ggplot2 boxplot layout, funny fonts, etc.:

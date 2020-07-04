@@ -3,7 +3,7 @@ layout: post
 title: "R - plot distributions with <em>plot_distr()</em> from <em>fplot</em>package"
 date: 2020-05-30
 category: R
-tags: R function visualization plots package 
+tags: R function visualization plot package 
 ---
 
 https://cran.r-project.org/web/packages/fplot/vignettes/fplot_walkthrough.html
