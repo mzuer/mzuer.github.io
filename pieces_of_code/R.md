@@ -3,6 +3,17 @@ layout: default
 title: "Pieces of code - R"
 ---
 
+### Axes and labs for ggplot2
+
+```{r}
+[...]
+  labs(x="", y="", fill=paste0(legTitle)) + 
+  guides(color=FALSE)+
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10))+
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
+[...]
+``` 
+
 
 ### Theme for ggplot2
 
