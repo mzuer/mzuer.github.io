@@ -44,6 +44,25 @@ theme(
 
 ``` 
 
+### Save and print file name
+
+For ggplots:
+
+```{r}
+outFile <- file.path(outFolder, paste0("plot_name.", plotType))
+ggsave(p, file=outFile, height=myHeight, width=myWidth)
+cat(paste0("... written: ", outFile, "\n"))
+``` 
+
+For base plots:
+
+```{r}
+outFile <- file.path(outFolder, paste0("plot_name.", plotType))
+do.call(plotType, list(outFile, height=myHeight, width=myWidth))
+[...]
+foo <- dev.off()
+cat(paste0("... written: ", outFile, "\n"))
+``` 
 
 ### Density plot
 
