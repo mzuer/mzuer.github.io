@@ -15,7 +15,7 @@ title: "Machine learning"
 (can all be found online)
 
 - Books
-	- 
+	- Machine learning: a probabilistic perspective - Murphy
 	- An introduction to statistical learning with applications in R- James et al.
 	- Big data et machine learning manuel du data scientist - Lemberger et al.
 	- Pattern recognition and machine learning - Bishop
@@ -26,10 +26,11 @@ title: "Machine learning"
 	- Le Machine learning avec R - Modélisation mathématique rigoureuse - Burger
 	- Neural Networks and Deep Learning - Aggarwal
 	- Neural Networks and Deep Learning - Nielsen
-	- The elements of Statistical Learning - Hastie et al
+	- The elements of Statistical Learning - Hastie et al.
 
 - Online courses
 	- [teaching page](http://cazencott.info/index.php/pages/Teaching) of Prof. Chloé-Agathe Azencott 
 	- [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+
 
 
