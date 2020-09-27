@@ -1,5 +1,7 @@
 
-### Cross-validation
+## Cross-validation
+
+<div style="text-align: justify"> 
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 
@@ -143,7 +145,7 @@ By mimicking cross-validation, a better bootstrap estimate can be obtained. For 
 
 **K-Fold Cross-Validation**
 
-When training data is scarce, we might not even be able to afford to hold out enough data to con-stitute a proper validation set. One popular solution to this problem is to employ **K-fold cross-validation**: 
+When training data is scarce, we might not even be able to afford to hold out enough data to constitute a proper validation set. One popular solution to this problem is to employ **K-fold cross-validation**: 
 - the original training data is split into *K* non-overlapping subsets;
 - then model training and validation are executed *K* times, each time training on *K*.
 
@@ -208,6 +210,6 @@ to as **leave-one-out cross-validation**. Although such an approach can closely 
 the accuracy, it is usually too expensive to train the model a large number of times. In fact,
 cross-validation is sparingly used in neural networks because of efficiency issues.
 
-
+</div>
 
 

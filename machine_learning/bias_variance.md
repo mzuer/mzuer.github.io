@@ -1,4 +1,4 @@
-### The Bias-Variance Trade-Off
+## The bias-variance trade-off
 
 ##### *(source: Neural Networks and Deep Learning - Aggarwal)*
 
@@ -8,8 +8,7 @@ data set is the key take-away from the **bias-variance trade-off**.
 The bias-variance trade-off states that the squared error of a learning algorithm can be partitioned into three components:
 
 1. **Bias** = caused by the simplifying assumptions in the model, which
-causes certain test instances to have *consistent errors* across different choices of train-
-ing data sets. Even if the model has access to an infinite source of training data, the
+causes certain test instances to have *consistent errors* across different choices of training data sets. Even if the model has access to an infinite source of training data, the
 bias cannot be removed. 
 
 2. **Variance** = caused by the *inability to learn all the parameters* of the model
