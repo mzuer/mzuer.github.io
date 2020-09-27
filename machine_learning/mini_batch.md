@@ -137,83 +137,70 @@ number of examples in our training set divided by the mini-batch size.
 If we increase our mini-batch size by a factor of two, we need to increase the number of
 epochs by a factor of two in order to maintain the same number of parameter updates.
 
-############################ Pattern recognition bishop
 
+##### *(source: Pattern recognition - Bishop)*
 
+(NB not to confound with **batch methods**)
 
-NB not to confound:
- Techniques that
-use the whole data set at once are called batch methods. At each step the weight
+Techniques that use the *whole data set at once* are called **batch methods**. At each step the weight
 vector is moved in the direction of the greatest rate of decrease of the error function,
 and so this approach is known as gradient descent or steepest descent.
 
-On-line gradient descent, also known as sequential gradient descent or stochastic
-gradient descent, makes an update to the weight vector based on one data point at a
-times
+**On-line** gradient descent, also known as **sequential** gradient descent or **stochastic**
+gradient descent, makes an update to the weight vector based on *one data point at a
+time*.
 
 One advantage of on-line methods compared to batch methods is that the former
-handle redundancy in the data much more efficiently. To see, this consider an ex-
+*handle redundancy in the data much more efficiently*. To see, this consider an ex-
 treme example in which we take a data set and double its size by duplicating every
 data point. Note that this simply multiplies the error function by a factor of 2 and so
 is equivalent to using the original error function. Batch methods will require double
 the computational effort to evaluate the batch error function gradient, whereas on-
 line methods will be unaffected. Another property of on-line gradient descent is the
-possibility of escaping from local minima, since a stationary point with respect to
+*possibility of escaping from local minima*, since a stationary point with respect to
 the error function for the whole data set will generally not be a stationary point for
 each data point individually.
 
-if the data set is sufficiently large,
+If the data set is *sufficiently large*,
 it may be worthwhile to use sequential algorithms, also known as on-line algorithms,
-in which the data points are considered one at a time, and the model parameters up-
-dated after each such presentation. Sequential learning is also appropriate for real-
-time applications in which the data observations are arriving in a continuous stream,
+in which the data points are considered one at a time, and the model parameters updated after each such presentation. Sequential learning is also appropriate for real-
+time applications in which the data observations are arriving in a *continuous stream*,
 and predictions must be made before all of the data points are seen.
 We can obtain a sequential learning algorithm by applying the technique of
-stochastic gradient descent, also known as sequential gradient
- descent.
+stochastic gradient descent, also known as sequential gradient descent.
 
 
-############################ The Elements of Statistical Learning - Hastie et al.
+##### *(source: Dive into deep learning - Zhang et al.)*
 
-<none>
 
-############################ Dive into Deep Learning - Zhang
+**Minibatch stochastic gradient descent**
 
-Minibatch Stochastic Gradient DescentEven in cases where we cannot solve the models analytically, it turns out that we can still trainmodels effectively in practice. Moreover, for many tasks, those difficult-to-optimize models turnout to be so much better that figuring out how to train them ends up being well worth the trouble.The key technique for optimizing nearly any deep learning model, and which we will call uponthroughout this book, consists of iteratively reducing the error by updating the parameters in thedirection that incrementally lowers the loss function. This algorithm is calledgradient descent.The most naive application of gradient descent consists of taking the derivative of the loss func-tion, which is an average of the losses computed on every single example in the dataset. In prac-tice, this can be extremely slow: we must pass over the entire dataset before making a singleupdate. Thus, we will often settle for sampling a random minibatch of examples every time weneed to compute the update, a variant calledminibatch stochastic gradient descent.In each iteration, we first randomly sample a minibatchBconsisting of a fixed number of trainingexamples. We then compute the derivative (gradient) of the average loss on the minibatch withregard to the model parameters. Finally, we multiply the gradient by a predetermined positivevalueand subtract the resulting term from the current parameter values.
+Even in cases where we cannot solve the models analytically, it turns out that we can still train models effectively in practice. Moreover, for many tasks, those difficult-to-optimize models turnout to be so much better that figuring out how to train them ends up being well worth the trouble.The key technique for optimizing nearly any deep learning model consists of *iteratively reducing the error by updating the parameters in the direction that incrementally lowers the loss function*. This algorithm is called **gradient descent**.The most naive application of gradient descent consists of taking the derivative of the loss funcion, which is an average of the losses computed on every single example in the dataset. In practice, this can be extremely slow: we must pass over the entire dataset before making a single update. Thus, we will often settle for *sampling a random minibatch of examples every time we need to compute the update*, a variant called **minibatch stochastic gradient descent**.In each iteration:
+- first randomly sample a minibatch *B* consisting of a fixed number of training examples;
+- then compute the derivative (gradient) of the average loss on the minibatch with regard to the model parameters;
+- finally, multiply the gradient by a predetermined positivevalue and subtract the resulting term from the current parameter values.
 
-We emphasize that the values of the batch size and learning rate are manuallypre-specified and not typically learned through model training. These parameters that are tun-able but not updated in the training loop are calledhyperparameters.Hyperparameter tuningis theprocess by which hyperparameters are chosen, and typically requires that we adjust them basedon the results of the training loop as assessed on a separatevalidation dataset(orvalidation set).After training for some predetermined number of iterations (or until some other stopping criteriaare met), we record the estimated model parameters, denoted^w;^b. Note that even if our functionis truly linear and noiseless, these parameters will not be the exact minimizers of the loss because,although the algorithm converges slowly towards the minimizers it cannot achieve it exactly in afinite number of steps.Linear regression happens to be a learning problem where there is only one minimum over theentire domain. However, for more complicated models, like deep networks, the loss surfacescontain many minima. Fortunately, for reasons that are not yet fully understood, deep learningpractitioners seldom struggle to find parameters that minimize the losson training sets. The moreformidable task is to find parameters that will achieve low loss on data that we have not seenbefore, a challenge calledgeneralization. We return to these topics throughout the book.
+The values of the batch size and learning rate are manually pre-specified and not typically learned through model training. These parameters that are tunable but not updated in the training loop are called **hyperparameters**. *Hyperparameter tuning* is the process by which hyperparameters are chosen, and typically requires that we adjust them based on the results of the training loop as assessed on a separate **validation** dataset (or validation set). After training for some predetermined number of iterations (or until some other stopping criteria are met), we record the estimated model parameters. Note that even if our function is truly linear and noiseless, these parameters will not be the exact minimizers of the loss because, although the algorithm converges slowly towards the minimizers it cannot achieve it exactly in a finite number of steps. Linear regression happens to be a learning problem where there is only one minimum over the entire domain. However, for more complicated models, like deep networks, the loss surfaces contain many minima. Fortunately, for reasons that are not yet fully understood, deep learning practitioners seldom struggle to find parameters that minimize the losson training sets. The more formidable task is to *find parameters that will achieve low loss on data that we have not seen before*, a challenge called **generalization**. 
 
-############################ Deep Learning - Goodfellow
-<none>
+##### *(source: Neural networks and deep learning - Nielsen)*
 
-############################ Neural Networks and Deep Learning - Nielsen
-
-To make these ideas more precise, stochastic gradient descent works by randomly picking
-out a small number m of randomly chosen training inputs. We'll label those random training
-inputs X 1 , X 2 , . . . , X m , and refer to them as a mini-batch.
-To connect this explicitly to learning in neural networks, suppose w k and b l denote the
-weights and biases in our neural network. Then stochastic gradient descent works by picking
-out a randomly chosen mini-batch of training inputs, and training with those,
-η X ∂ C X j
-m j ∂ w k (20)
-η X ∂ C X j
-,
-m j ∂ b l (21)
-w k → w 0 k = w k −
-b l → b l 0 = b l −
-where the sums are over all the training examples X j in the current mini-batch. Then we
+**Stochastic gradient descent** works by randomly picking
+out a small number m of randomly chosen training inputs. We'll refer to those random training
+inputs as a **mini-batch**.
+The stochastic gradient descent works by picking
+out a randomly chosen mini-batch of training inputs, and training with those.
+Then we
 pick out another randomly chosen mini-batch and train with those. And so on, until we've
-exhausted the training inputs, which is said to complete an epoch of training. At that point
+exhausted the training inputs, which is said to complete an *epoch* of training. At that point
 we start over with a new training epoch.
+
+
 Incidentally, it's worth noting that conventions vary about scaling of the cost function and
-of mini-batch updates to the weights and biases. In Equation (6) we scaled the overall cost
-function by a factor 1 n . People sometimes omit the 1 n , summing over the costs of individual
-training examples instead of averaging. This is particularly useful when the total number
+of mini-batch updates to the weights and biases. Summing over the costs of individual
+training examples instead of averaging is particularly useful when the total number
 of training examples isn't known in advance. This can occur if more training data is being
-generated in real time, for instance. And, in a similar way, the mini-batch update rules (20)
-and (21) sometimes omit the m 1 term out the front of the sums. Conceptually this makes little
-difference, since it's equivalent to rescaling the learning rate η. But when doing detailed
-comparisons of different work it's worth watching out for.
+generated in real time, for instance. 
+
 We can think of stochastic gradient descent as being like political polling: it's much easier
 to sample a small mini-batch than it is to apply gradient descent to the full batch, just as
 carrying out a poll is easier than running a full election. For example, if we have a training
@@ -222,67 +209,37 @@ we'll get a factor of 6,000 speedup in estimating the gradient! Of course, the e
 be perfect – there will be statistical fluctuations – but it doesn't need to be perfect: all we
 really care about is moving in a general direction that will help decrease C, and that means
 we don't need an exact computation of the gradient. In practice, stochastic gradient descent
-is a commonly used and powerful technique for learning in neural networks, and it's the
-basis for most of the learning techniques we'll develop in this book.
-• An extreme version of gradient descent is to use a mini-batch size of just 1. That is,
-given a training input, x, we update our weights and biases according to the rules
-w k → w 0 k = w k − η∂ C x /∂ w k and b l → b l 0 = b l − η∂ C x /∂ b l . Then we choose another
-training input, and update the weights and biases again. And so on, repeatedly. This
-procedure is known as online, on-line, or incremental learning. In online learning, a
+is a commonly used and powerful technique for learning in neural networks.
+
+An extreme version of gradient descent is to use a *mini-batch size of just 1*. This
+procedure is known as **online, on-line, or incremental learning**. In online learning, a
 neural network learns from just one training input at a time (just as human beings
-do). Name one advantage and one disadvantage of online learning, compared to
-stochastic gradient descent with a mini-batch size of, say, 20.
+do). 
 
 
-############################ Neural Networks and Deep Learning - Aggarwal
+##### *(source: Neural networks and deep learning - Aggarwal)*
 
-Mini-Batch Stochastic Gradient Descent
-From the very first chapter of this book, all updates to the weights are performed in point-
-specific fashion, which is referred to as stochastic gradient descent. Such an approach is
-common in machine learning algorithms. In this section, we provide a justification for this
-choice along with related variants like mini-batch stochastic gradient descent. We also pro-
-vide an understanding of the advantages and disadvantages of various choices.
+
+**Mini-batch stochastic gradient descent**
+
+When all updates to the weights are performed in point-
+specific fashion, this is referred to as **stochastic gradient descent**. Such an approach is
+common in machine learning algorithms. 
+
 Most machine learning problems can be recast as optimization problems over specific
 objective functions. For example, the objective function in neural networks can be defined
 in terms optimizing a loss function L, which is often a linearly separable sum of the loss
-functions on the individual training data points. For example, in a linear regression applica-
-tion, one minimizes the sum of the squared prediction errors over the training data points.
+functions on the individual training data points. For example, in a linear regression application, one minimizes the sum of the squared prediction errors over the training data points.
 In a dimensionality reduction application, one minimizes the sum of squared representation
-errors in the reconstructed training data points. One can write the loss function of a neural
-network in the following form:
-n
-
-L i
-(3.27)
-L =
-i=1
-Here, L i is the loss contributed by the ith training point. For most of the algorithms in
-Chapter 2, we have worked with training point-specific loss rather than the aggregate loss.
+errors in the reconstructed training data points. 
+
 In gradient descent, one tries to minimize the loss function of the neural network by
-moving the parameters along the negative direction of the gradient. For example, in the
-case of the perceptron, the parameters correspond to W = (w 1 . . . w d ). Therefore, one would
+moving the parameters along the negative direction of the gradient. Therefore, one would
 try to compute the loss of the underlying objective function over all points simultaneously
-and perform gradient descent. Therefore, in traditional gradient descent, one would try to
-perform gradient-descent steps such as the following:
-
-
-∂L ∂L
-∂L
-W ⇐ W − α
-,
-...
-(3.28)
-∂w 1 ∂w 2
-∂w d
-This type of derivative can also be written succinctly in vector notation (i.e., matrix calculus
-notation):
-∂L
-(3.29)
-W ⇐ W − α
-∂W
-For single-layer networks like the perceptron, gradient-descent is done only with respect
-to W , whereas for larger networks, all parameters in the network need to be updated
-with backpropagation. The number of parameters can easily be on the order of millions
+and perform gradient descent. 
+
+
+The number of parameters to be updated by backpropagation can easily be on the order of millions
 in large-scale applications, and one needs to simultaneously run all examples forwards and
 backwards through the network in order to compute the backpropagation updates. It is,
 however, impractical to simultaneously run all examples through the network to compute
@@ -294,49 +251,38 @@ even a small sample of points can be used to create an excellent estimate of the
 direction. The additive effect of the updates created from such samples can often provide
 an accurate direction of movement. This observation provides a practical foundation for the
 success of the stochastic gradient-descent method and its variants.
-Since the loss function of most optimization problems can be expressed as a linear sum
-of the losses with respect to individual points (cf. Equation 3.27), it is easy to show the
-following:
-In this case, updating the full gradient with respect to all the points sums up the individual
-point-specific effects. Machine learning problems inherently have a high level of redundancy
-between the knowledge captured by different training points, and one can often more effi-
-ciently undertake the learning process with the point-specific updates of stochastic gradient
-descent:
-∂L i
-(3.31)
-W ⇐ W − α
-∂W
-This type of gradient descent is referred to as stochastic because one cycles through the
+
+
+The loss function of most optimization problems can be expressed as a linear sum
+of the losses with respect to individual points.
+In this case, *updating the full gradient with respect to all the points sums up the individual
+point-specific effects*. Machine learning problems inherently have a high level of redundancy
+between the knowledge captured by different training points, and one can often more efficiently undertake the learning process with the *point-specific updates of stochastic gradient*.
+This type of gradient descent is referred to as **stochastic** because one cycles through the
 points in some random order. Note that the long-term effect of repeated updates is ap-
 proximately the same, although each update in stochastic gradient descent can only be
 viewed as a probabilistic approximation. Each local gradient can be computed efficiently,
 which makes stochastic gradient descent fast, albeit at the expense of accuracy in gradient
 computation. However, one interesting property of stochastic gradient descent is that even
 though it might not perform as well on the training data (compared to gradient descent),
-it often performs comparably (and sometimes even better) on the test data [171]. As you
-will learn in Chapter 4, stochastic gradient descent has the indirect effect of regularization.
+it often performs comparably (and sometimes even better) on the test data. Stochastic gradient descent has the indirect effect of regularization.
 However, it can occasionally provide very poor results with certain orderings of training
 points.
-In mini-batch stochastic descent, one uses a batch B = {j 1 . . . j m } of training points for
-the update:
- ∂L i
-(3.32)
-W ⇐ W − α
-∂W
-i∈B
-Mini-batch stochastic gradient descent often provides the best trade-off between stability,
-speed, and memory requirements. When using mini-batch stochastic gradient descent, the
-outputs of a layer are matrices instead of vectors, and forward propagation requires the mul-
-tiplication of the weight matrix with the activation matrix. The same is true for backward
-propagation in which matrices of gradients are maintained. Therefore, the implementation
+
+
+In **mini-batch stochastic descent**, one uses a batch *B* of training points for
+the update. Mini-batch stochastic gradient descent often provides the *best trade-off between stability,
+speed, and memory requirements*. When using mini-batch stochastic gradient descent, the
+outputs of a layer are matrices instead of vectors, and forward propagation requires the multiplication of the weight matrix with the activation matrix. The same is true for backward
+propagation in which matrices of gradients are maintained. Therefore, *the implementation
 of mini-batch stochastic gradient descent increases the memory requirements, which is a
-key limiting factor on the size of the mini-batch.
+key limiting factor on the size of the mini-batch*.
 The size of the mini-batch is therefore regulated by the amount of memory available on
 the particular hardware architecture at hand. Keeping a batch size that is too small also
 results in constant overheads, which is inefficient even from a computational point of view.
 Beyond a certain batch size (which is typically of the order of a few hundred points), one
 does not gain much in terms of the accuracy of gradient computation. It is common to
-use powers of 2 as the size of the mini-batch, because this choice often provides the best
+use *powers of 2 as the size of the mini-batch*, because this choice often provides the best
 efficiency on most hardware architectures; commonly used values are 32, 64, 128, or 256.
 Although the use of mini-batch stochastic gradient descent is ubiquitous in neural network
 learning, most of this book will use a single point for the update (i.e., pure stochastic
