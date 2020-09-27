@@ -1,6 +1,5 @@
 ## Mini-batch
 
-<div style="text-align: justify"> 
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 
@@ -288,4 +287,4 @@ Although the use of mini-batch stochastic gradient descent is ubiquitous in neur
 learning, most of this book will use a single point for the update (i.e., pure stochastic
 gradient descent) for simplicity in presentation.
 
-</div>
+

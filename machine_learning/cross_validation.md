@@ -1,7 +1,6 @@
 
 ## Cross-validation
 
-<div style="text-align: justify"> 
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 
@@ -141,7 +140,7 @@ the behavior of the fits over the *B* replications.
 
 By mimicking cross-validation, a better bootstrap estimate can be obtained. For each observation, we only keep track of predictions from bootstrap samples not containing that observation (**leave-one-out bootstrap**).
 
-##### *(source: Dive into deep learning - Zhang)*
+##### *(source: Dive into deep learning - Zhang et al.)*
 
 **K-Fold Cross-Validation**
 
@@ -209,7 +208,5 @@ for testing*. Since this single point is left out from the training data, this a
 to as **leave-one-out cross-validation**. Although such an approach can closely approximate
 the accuracy, it is usually too expensive to train the model a large number of times. In fact,
 cross-validation is sparingly used in neural networks because of efficiency issues.
-
-</div>
 
 

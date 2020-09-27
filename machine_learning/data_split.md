@@ -1,6 +1,5 @@
 ## Data split (train, test, validation)
 
-<div style="text-align: justify"> 
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 
@@ -10,7 +9,7 @@ and test splits, but validation splits, as well. We use validation splits to gui
 efforts in possibly stopping training early.
 
 
-##### *(source: Dive into Deep Learning - Zhang)*
+##### *(source: Dive into Deep Learning - Zhang et al.)*
 
 
 **Validation dataset**
@@ -124,4 +123,4 @@ Il est nécessaire que tous les ensembles que vous manipulez soient représentat
 
 Le souci dans l'utilisation d'un ensemble de test c'est que vous allez réduire votre ensemble d'entraînement pour isoler un ensemble de test. Si votre jeu de données est restreint, vous allez le restreindre encore plus et cela pourra pénaliser l'apprentissage : avec trop peu de données, le modèle ne pourra pas apprendre correctement. Un autre souci à l'utilisation d'un ensemble de test c'est qu'il est nécessairement plus petit et que les mesures de performances du modèle sur ce petit ensemble risquent de ne pas représenter sa capacité à généraliser. Un ensemble petit aura plus de mal à rester représentatif des données réelles. C'est pourquoi on choisira souvent d'utiliser une *validation croisée pour affiner les hyper-paramètres d'un modèle*.La validation croisée consiste en une *suite de découpages distincts en un ensemble d'entraînement et un ensemble de validation*. Chaque découpage permet de mesurer une performance du modèle et la moyenne des performances de chaque découpage permet de trouver les meilleurs hyper-paramètres sans jamais avoir validé le modèle sur une donnée déjà apprise.
 
-</div>
+
