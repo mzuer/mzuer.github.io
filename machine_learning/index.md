@@ -29,7 +29,7 @@ title: "Machine learning"
 	- The elements of Statistical Learning - Hastie et al.
 
 - Online courses
-	- [teaching page](http://cazencott.info/index.php/pages/Teaching) of Prof. Chloé-Agathe Azencott 
+	- [teaching page](http://cazencott.info/index.php/pages/Teaching) of Prof. Chloé-Agathe Azencott (book, slides and notebooks)
 	- [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
 
 
