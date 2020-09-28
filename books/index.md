@@ -27,7 +27,11 @@ title: "Online books"
 
 * <a href="https://d2l.ai/index.html">Dive into Deep Learning</a> by Zhang et al. 
 
+* <a href="http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf">Machine Learning: A Probabilistic Perspective</a> by Murphy
+
 * <a href="https://riptutorial.com/ebook/tensorflow">Learning tensorflow</a> by RIP Tutorial
+
+* <a href="http://cazencott.info/dotclear/public/lectures/IntroML_Azencott.pdf">Introduction au Machine Learning</a> by Chloé-Agathe Azencott
 
 ##### Bash
 

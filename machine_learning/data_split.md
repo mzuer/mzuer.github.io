@@ -1,5 +1,6 @@
 ## Data split (train, test, validation)
 
+<style>body {text-align: justify}</style>
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 

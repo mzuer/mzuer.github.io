@@ -1,5 +1,7 @@
 ## The bias-variance trade-off
 
+<style>body {text-align: justify}</style>
+
 ##### *(source: Neural Networks and Deep Learning - Aggarwal)*
 
 The fact that more powerful models do not always win in terms of prediction accuracy with a finite

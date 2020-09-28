@@ -1,6 +1,7 @@
 
 ## Cross-validation
 
+<style>body {text-align: justify}</style>
 
 ##### *(source: Deep learning: a practitioner's approach - Gibson and Patterson)*
 
