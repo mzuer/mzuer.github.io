@@ -211,3 +211,77 @@ the accuracy, it is usually too expensive to train the model a large number of t
 cross-validation is sparingly used in neural networks because of efficiency issues.
 
 
+##### *(source: Introduction au machine learning - Azencott)*
+
+**Validation croisée**
+
+La séparation d'un jeu de données en un jeu d'entraînement et un jeu de test est nécessairement arbitraire. Nous risquons ainsi d'avoir, par hasard, créé des jeux de données qui ne sont pas représentatifs.
+Pour éviter cet écueil, il est souhaitable de reproduire plusieurs fois la procédure, puis de moyenner les
+résultats obtenus afin de moyenner ces effets aléatoires. Le cadre le plus classique pour ce faire est celui de
+la **validation croisée**.
+
+Étant donné un jeu *D* de *n* observations, et un nombre *K*, on
+appelle validation croisée la procédure qui consiste à
+1. partitionner *D* en *K* parties de tailles sensiblement similaires
+2. pour chaque valeur de k = 1
+	- entraîner un modèle sur toutes les parties de *D* sauf la k-ème
+	- évaluer ce modèle sur la k-ème partie
+
+Chaque partition de *D* en deux ensembles est appelée un **fold** de la validation croisée.
+
+Chaque observation étiquetée du jeu *D* appartient à un unique jeu de test, et à *(K − 1)* jeux d'entraînement. Ainsi, cette procédure génère *une prédiction par observation de* D. Pour conclure sur la performance
+du modèle, on peut :
+— soit évaluer la qualité des prédictions sur *D* ;
+— soit évaluer la qualité de chacun des K prédicteurs sur le jeu de test correspondant, et *moyenner*
+leurs performances. Cette deuxième approche permet aussi de rapporter l'*écart-type* de ces performances, ce qui permet de se faire une meilleure idée de la variabilité de la qualité des prédictions
+en fonction des données d'entraînement.
+
+**Stratification**
+
+Une validation croisée est dite **stratifiée** si *la moyenne
+des étiquettes des observations est sensiblement la même dans chacun des *K* sous-ensembles de *D*.
+
+Dans le cas d'un problème de classification, cela signifie que la proportion d'exemples de chaque classe
+est la même dans chacun des sous-ensembles. Cette proportion est donc aussi la même que dans le jeu de données *D*
+complet.
+
+L'intérêt de cette procédure est de faire en sorte que la *distribution des observations au sein de chaque
+sous-ensemble soit la même qu'au sein du jeu de données* D. Imaginons que par malchance un des folds ne contienne
+que des exemples positifs dans son jeu d'entraînement et que des exemples négatifs dans son jeu de test :
+il est vraisemblable que, sur ce fold, tout modèle apprenne à prédire que tout est positif et ait une très
+mauvaise performance.
+
+
+**Leave-one-out**
+
+Un algorithme d'apprentissage apprendra d'autant mieux qu'il y a d'avantage de données disponibles
+pour l'entraînement : plus on connaît d'étiquettes pour des observations de l'espace X , plus on peut contraindre
+le modèle à les respecter. Or pour un jeu de données de taille *n*, un jeu de test d'une validation croisée à
+*K* folds contient *(K−1)n* points : les modèles entraînés apprendront d'autant mieux sur chacun des folds *K*
+qu'ils sont grands, ce qui nous pousse à considérer le cas où *K = n*.
+
+Une validation croisée dont *le nombre de folds est
+égal au nombre d'observations dans le jeu d'entraînement*, et dont chaque fold est donc composé d'un jeu
+d'entraînement de taille *n − 1* et d'un jeu de test de taille 1, est appelée **leave one out** : *on met de côté, pour
+chaque fold, un unique exemple*.
+
+L'évaluation par leave-one-out présente deux inconvénients. Tout d'abord, elle requiert un *grand temps*
+de calcul : on entraîne *n* modèles, chacun sur *n−1* observations, au lieu de (dans le cas *K = 10*) 10 modèles,
+chacun sur 90% des observations. De plus, les *jeux d'entraînement ainsi formés sont très similaires* entre
+eux. Les modèles entraînés seront eux aussi très similaires, et généralement peu différents d'un modèle
+entraîné sur l'intégralité du jeu de données. Par contre, *les jeux de test seront disjoints, et les performances
+pourront ainsi avoir une grande variabilité*, ce qui compliquera leur interprétation.
+
+**Bootstrap**
+
+Une autre façon de rééchantillonner les données afin d'estimer l'erreur de généralisation est connue
+sous le nom de **bootstrap**.
+Étant donné un jeu *D* de *n* observations, et un nombre *B*, on appelle bootstrap la procédure qui consiste à *créer* B *échantillons de* D, obtenus chacun en *tirant* n
+*exemples de* D *avec remplacement*. Ainsi, chaque exemple peut apparaître plusieurs fois, ou pas du tout,
+dans D b .
+
+Le bootstrap est une procédure couramment utilisée en statistiques pour estimer un paramètre en fonction de son estimation sur les *B* échantillons. En la suivant, on pourrait entraîner le modèle à évaluer sur
+chaque échantillon de *D* puis évaluer sa performance sur l'intégralité de *D*. Cependant, cette estimation serait biaisée par la présence d'une partie des exemples de D dans le sous-ensemble. Il faut donc se limiter aux exemples
+de D\Db . En pratique, cette procédure est jugée trop complexe pour être souvent appliquée.
+
+

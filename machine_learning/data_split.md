@@ -125,3 +125,52 @@ Il est nécessaire que tous les ensembles que vous manipulez soient représentat
 Le souci dans l'utilisation d'un ensemble de test c'est que vous allez réduire votre ensemble d'entraînement pour isoler un ensemble de test. Si votre jeu de données est restreint, vous allez le restreindre encore plus et cela pourra pénaliser l'apprentissage : avec trop peu de données, le modèle ne pourra pas apprendre correctement. Un autre souci à l'utilisation d'un ensemble de test c'est qu'il est nécessairement plus petit et que les mesures de performances du modèle sur ce petit ensemble risquent de ne pas représenter sa capacité à généraliser. Un ensemble petit aura plus de mal à rester représentatif des données réelles. C'est pourquoi on choisira souvent d'utiliser une *validation croisée pour affiner les hyper-paramètres d'un modèle*.La validation croisée consiste en une *suite de découpages distincts en un ensemble d'entraînement et un ensemble de validation*. Chaque découpage permet de mesurer une performance du modèle et la moyenne des performances de chaque découpage permet de trouver les meilleurs hyper-paramètres sans jamais avoir validé le modèle sur une donnée déjà apprise.
 
 
+##### *(source: Introduction au machine learning - Azencott)*
+
+**Estimation empirique de l’erreur de généralisation**
+L’erreur empirique mesurée sur les observations qui ont permis de construire le modèle est un mauvais
+estimateur de l’erreur du modèle sur l’ensemble des données possibles, ou erreur de généralisation : si le
+modèle sur-apprend, cette erreur empirique peut être proche de zéro voire nulle, tandis que l’erreur de
+généralisation peut être arbitrairement grande.
+
+
+**Jeu de test**
+Il est donc indispensable d’utiliser pour évaluer un modèle des données étiquetées qui n’ont pas servi
+à le construire. La manière la plus simple d’y parvenir est de mettre de côté une partie des observations,
+réservées à l’évaluation du modèle, et d’utiliser uniquement le reste des données pour le construire.
+
+Étant donné un jeu de données *D*, on appelle **jeu d’entraînement** (*training set* en anglais) l’ensemble utilisé pour entraîner un modèle prédictif, et 
+**jeu de test** (*test set* en anglais) l’ensemble utilisé pour son
+évaluation.
+
+Comme nous n’avons pas utilisé le jeu de test pour entraîner notre modèle, il peut être considéré comme
+un jeu de données « nouvelles ». La perte calculée sur ce jeu de test est un estimateur de l’erreur de géné-
+ralisation.
+
+
+**Jeu de validation**
+Considérons maintenant la situation dans laquelle nous voulons choisir entre *K* modèles. Nous pouvons
+alors entraîner chacun des modèles sur le jeu de données d’entraînement, obtenant ainsi *K* fonctions de
+décision puis calculer l’erreur de chacun de ces modèles sur le jeu de test. 
+Nous pouvons
+ensuite choisir comme modèle celui qui a la plus petite erreur sur le jeu de test.
+Mais quelle est son erreur de généralisation ? Comme nous avons utilisé un ensemble des données pour sélectionner le modèle,
+il ne représente plus un jeu indépendant composé de données nouvelles, inutilisées pour déterminer le
+modèle.
+
+La solution est alors de *découper notre jeu de données en trois parties* :
+— Un **jeu d’entraînement** sur lequel nous pourrons *entraîner* nos *K* algorithmes d’apprentissage ;
+— Un **jeu de validation** (*validation set* en anglais) sur lequel nous *évaluerons* les *K* modèles ainsi
+obtenus, afin de sélectionner un modèle définitif ;
+— Un **jeu de test** sur lequel nous évaluerons enfin l’*erreur de généralisation* du modèle choisi.
+
+
+On voit ici qu’il est *important de distinguer la sélection d’un modèle de son évaluation* : les faire sur les
+mêmes données peut nous conduire à sous-estimer l’erreur de généralisation et le sur-apprentissage du
+modèle choisi.
+
+*Remarque*: une fois un modèle sélectionné, on peut le ré-entraîner sur l’union du jeu d’entraînement et du jeu de
+validation afin de construire un modèle final.
+
+
+
