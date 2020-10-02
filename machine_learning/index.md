@@ -30,7 +30,7 @@ title: "Machine learning"
 
 - Online courses
 	- [teaching page](http://cazencott.info/index.php/pages/Teaching) of Prof. Chloé-Agathe Azencott (book, slides and notebooks)
-	- [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+	- [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/) - Stanford CS class
 
 
 
