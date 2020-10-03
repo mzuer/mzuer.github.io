@@ -34,9 +34,10 @@ s	- [Bayesian reasoning and machine learning](http://www.cs.ucl.ac.uk/staff/d.ba
 	- Le Machine learning avec R - Modélisation mathématique rigoureuse - Burger
 	- Data science fondamentaux et études de cas Machine learning avec Python et R - Biernat and Lutz
 	
-- Online sources
+- Online ressources
 	- interactive machine learning articles on [**Distill**](https://distill.pub)
 	- explore neural networks with [http://playground.tensorflow.org](http://playground.tensorflow.org/)
+	- [blog](https://colah.github.io/) on selected machine learning topics
 	- [learning methods building on kernels](http://www.kernel-machines.org/)
 	- [teaching page](http://cazencott.info/index.php/pages/Teaching) of Prof. Chloé-Agathe Azencott (book, slides and notebooks)
 	- [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/) - Stanford CS class
