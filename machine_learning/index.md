@@ -9,6 +9,7 @@ title: "Machine learning"
 * <a href="mini_batch">mini-batch</a>
 * <a href="cross_validation">cross-validation</a>
 * <a href="bias_variance">bias-variance trade-off</a>
+* <a href="points_clefs_Azencott">"Points clefs" and references from Azencott's textbook</a>
 
 ### References
 
