@@ -318,5 +318,132 @@ méthode est que vous pouvez alors juger de l’erreur dans tous les aspects de 
 données, au lieu d’en tester simplement un sous-ensemble spécifique.
 
 
+https://stats.stackovernet.xyz/fr/q/66450
+
+Turns out, with sample sizes (< a few 1000 independent cases) it is better than the alternative of train-test-split where - as you say - you have the advantage of being unbiased but pay for this with much higher variance. 
+
+
+
+https://ichi.pro/fr/validation-croisee-imbriquee-optimisation-des-hyperparametres-et-selection-du-modele-6083242667226
+
+
+La validation croisée, également appelée technique hors échantillonnage, est un élément essentiel d'un projet de science des données. Il s'agit d'une procédure de rééchantillonnage utilisée pour évaluer les modèles d'apprentissage automatique et accéder aux performances du modèle pour un ensemble de données de test indépendant.
+
+L'optimisation ou le réglage d'hyperparamètres consiste à choisir un ensemble d'hyperparamètres pour un algorithme d'apprentissage automatique qui fonctionne le mieux pour un ensemble de données particulier.
+
+La validation croisée et l'optimisation des hyperparamètres constituent un aspect important d'un projet de science des données. La validation croisée est utilisée pour évaluer les performances d'un algorithme d'apprentissage automatique et le réglage des hyperparamètres est utilisé pour trouver le meilleur ensemble d'hyperparamètres pour cet algorithme d'apprentissage automatique.
+
+La sélection de modèle sans validation croisée imbriquée utilise les mêmes données pour ajuster les paramètres du modèle et évaluer les performances du modèle qui peuvent conduire à une évaluation optimiste du modèle. Nous obtenons une mauvaise estimation des erreurs dans les données d'entraînement ou de test dues à une fuite d'informations. Pour surmonter ce problème, la validation croisée imbriquée entre en scène.
+
+Comparaison des performances des stratégies CV non imbriquées et imbriquées pour l'ensemble de données Iris à l'aide d'un classificateur de vecteur de support. Vous pouvez observer le graphique des performances ci-dessous, à partir de cet article .
+
+
+
+Qu'est-ce que la validation croisée imbriquée et sa mise en œuvre?
+
+La validation croisée imbriquée ( Nested-CV ) imbrique la validation croisée et le réglage des hyperparamètres. Il est utilisé pour évaluer les performances d'un algorithme d'apprentissage automatique et estime également l'erreur de généralisation du modèle sous-jacent et sa recherche par hyperparamètres.
+
+Outre Nested-CV, il existe plusieurs stratégies de CV, lisez l'article ci-dessous pour en savoir plus sur les différentes procédures de CV.
+Étape 1: Séparation des essais de train:
+
+Divisez l'ensemble de données prétraitées donné en données de train et de test , les données de formation peuvent être utilisées pour entraîner le modèle et les données de test sont conservées isolées pour évaluer les performances du modèle final.
+(Image par l'auteur), fractionnement des données en données de train et de test
+
+Ce n'est pas une étape obligatoire, des données entières peuvent être utilisées comme données d'entraînement. La division des données en train et test est essentielle pour observer les performances du modèle pour des données de test invisibles. L'évaluation du modèle final avec les données de test indique les performances de ce modèle pour les futurs points invisibles.
+Étape 2: CV externe:
+
+Un algorithme d'apprentissage automatique est sélectionné en fonction de ses performances sur la boucle externe de validation croisée imbriquée. La validation croisée k-fold ou la procédure StaratifiedKfold peut être implémentée pour la boucle externe en fonction du déséquilibre des données, pour diviser également les données en k-plis ou groupes.
+
+    CV k-fold: Cette procédure divise les données en k plis ou groupes. (k-1) les groupes seront affectés au train et le groupe restant à valider les données. Cette étape est répétée pour les k-étapes jusqu'à ce que tous les groupes aient participé aux données de validation.
+    CV StatifiedKfold: Cette procédure est similaire au CV k-fold. Ici, l'ensemble de données est partitionné en k groupes ou plis de sorte que les données de validation et de train aient un nombre égal d'instances d'étiquette de classe cible. Cela garantit qu'une classe particulière n'est pas trop présente dans les données de validation ou de train, en particulier lorsque l'ensemble de données est déséquilibré.
+
+(Image de l'auteur), à gauche: validation croisée k-fold, à droite: validation croisée stratifiée k-fold, chaque pli a des instances égales de la classe cible
+Étape 3: CV interne:
+
+Ensuite, le CV interne est appliqué aux (k-1) replis ou groupes de données à partir du CV externe. L'ensemble de paramètres est optimisé à l'aide de GridSearch et est ensuite utilisé pour configurer le modèle. Le meilleur modèle renvoyé par GridSearchCV ou RandomSearchCV est ensuite évalué en utilisant le dernier repli ou groupe. Cette méthode est répétée k fois et le score CV final est calculé en prenant la moyenne de tous les k scores.
+Étape 4: Réglage de l'hyperparamètre:
+
+Le package Scikit-learn est fourni avec l' implémentation GridSearchCV et RandomSearchCV . Ces techniques de recherche renvoient le meilleur modèle d'apprentissage automatique en ajustant les paramètres donnés.
+Étape 5: Ajustez le modèle final:
+
+Vous disposez désormais du meilleur modèle et de l'ensemble d'hyperparamètres qui fonctionnent le mieux pour cet ensemble de données. Vous pouvez évaluer les performances du modèle pour les données de test invisibles.
+
+
+##### *(source: Evaluating Machine Learning Models - Zheng)*
+
+Hold-Out Validation
+Hold-out validation is simple. Assuming that all data points are i.i.d.
+(independently and identically distributed), we simply randomly
+hold out part of the data for validation. We train the model on the
+larger portion of the data and evaluate validation metrics on the
+smaller hold-out set.
+Computationally speaking, hold-out validation is simple to program
+and fast to run. The downside is that it is less powerful statistically.
+The validation results are derived from a small subset of the data,
+hence its estimate of the generalization error is less reliable. It is also
+difficult to compute any variance information or confidence inter‐
+vals on a single dataset.
+Use hold-out validation when there is enough data such that a sub‐
+set can be held out, and this subset is big enough to ensure reliable
+statistical estimates.
+Cross-Validation
+Cross-validation is another validation technique. It is not the only
+validation technique, and it is not the same as hyperparameter tun‐
+ing. So be careful not to get the three (the concept of model valida‐
+tion, cross-validation, and hyperparameter tuning) confused with
+each other. Cross-validation is simply a way of generating training
+and validation sets for the process of hyperparameter tuning. Hold-
+out validation, another validation technique, is also valid for hyper‐
+parameter tuning, and is in fact computationally much cheaper.
+There are many variants of cross-validation. The most commonly
+used is k-fold cross-validation. In this procedure, we first divide the
+training dataset into k folds (see Figure 3-2). For a given hyperpara‐
+meter setting, each of the k folds takes turns being the hold-out vali‐
+dation set; a model is trained on the rest of the k – 1 folds and meas‐
+ured on the held-out fold. The overall performance is taken to be
+the average of the performance on all k folds. Repeat this procedure
+for all of the hyperparameter settings that need to be evaluated, then
+pick the hyperparameters that resulted in the highest k-fold average.
+Another variant of cross-validation is leave-one-out cross-
+validation. This is essentially the same as k-fold cross-validation,
+where k is equal to the total number of data points in the dataset.
+Cross-validation is useful when the training dataset is so small that
+one can’t afford to hold out part of the data just for validation pur‐
+poses.
+Bootstrap and Jackknife
+Bootstrap is a resampling technique. It generates multiple datasets
+by sampling from a single, original dataset. Each of the “new” data‐
+sets can be used to estimate a quantity of interest. Since there are
+multiple datasets and therefore multiple estimates, one can also cal‐
+culate things like the variance or a confidence interval for the esti‐
+mate.
+Bootstrap is closely related to cross-validation. It was inspired by
+another resampling technique called the jackknife, which is essen‐
+tially leave-one-out cross-validation. One can think of the act of
+dividing the data into k folds as a (very rigid) way of resampling the
+data without replacement; i.e., once a data point is selected for one
+fold, it cannot be selected again for another fold.
+Bootstrap, on the other hand, resamples the data with replacement.
+Given a dataset containing N data points, bootstrap picks a data
+point uniformly at random, adds it to the bootstrapped set, puts that
+data point back into the dataset, and repeats.
+Why put the data point back? A real sample would be drawn from
+the real distribution of the data. But we don’t have the real distribu‐
+tion of the data. All we have is one dataset that is supposed to repre‐
+sent the underlying distribution. This gives us an empirical distribu‐
+tion of data. Bootstrap simulates new samples by drawing from the
+empirical distribution. The data point must be put back, because
+otherwise the empirical distribution would change after each draw.
+Obviously, the bootstrapped set may contain the same data point
+multiple times. (See Figure 3-2 for an illustration.) If the random
+draw is repeated N times, then the expected ratio of unique instan‐
+ces in the bootstrapped set is approximately 1 – 1/e ≈ 63.2%. In
+other words, roughly two-thirds of the original dataset is expected to
+end up in the bootstrapped dataset, with some amount of replica‐
+tion.
+One way to use the bootstrapped dataset for validation is to train the
+model on the unique instances of the bootstrapped dataset and vali‐
+date results on the rest of the unselected data. The effects are very
+similar to what one would get from cross-validation.
 
 
