@@ -172,5 +172,13 @@ modèle choisi.
 *Remarque*: une fois un modèle sélectionné, on peut le ré-entraîner sur l’union du jeu d’entraînement et du jeu de
 validation afin de construire un modèle final.
 
+##### *(source: Data Science par la pratique - Grus)*
+
+pour départager plusieurs modèles: dans ce cas, bien que chaque modèle ne soit pas forcément trop ajusté, la décision "choisir un modèle qui est le plus performant sur le jeu de données de test" est un méta-apprentissage qui considère le jeu de teste comme un deuxième jeu d'apprentissage (évidemment le modèle le plus performant en test sera également performant sur le jeu de test)
+
+dans une telle situation, il faut séparer les données en 3 parties
+1. un jeu d'apprentissage: pour construire les modèles
+2. un jeu de validation pour sélectionner un modèle
+3. un jeu de test pour juger le modèle retenu à la fin de l'expérience
 
 

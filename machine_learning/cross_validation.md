@@ -285,3 +285,38 @@ chaque échantillon de *D* puis évaluer sa performance sur l'intégralité de *
 de D\Db . En pratique, cette procédure est jugée trop complexe pour être souvent appliquée.
 
 
+
+##### *(source: Le Machine learning avec R - Modélisation mathématique rigoureuse - Burger)*
+
+La **validation croisée** est une technique statistique qui vous permet de prendre la
+totalité de votre jeu de données, de le partager en un certain nombre de petits
+« morceaux » pour l’entraînement et les tests, d’évaluer l’erreur pour chaque
+morceau, puis de faire la moyenne de ces erreurs finales. 
+
+Cette approche se
+révèle être un moyen plus précis d’évaluer si votre processus de modélisation est
+susceptible de rencontrer des problèmes qui pourraient se dissimuler à l’intérieur
+de diverses combinaisons des parties entraînement et test du jeu de données.
+
+
+La séparation
+simple 70/30 des données est une
+technique de validation croisée de type dit « **holdout** » (ou **validation simple**). Il
+existe cependant de nombreuses autres techniques statistiques de validation
+croisée.
+
+
+**Validation croisée à k-plis**
+
+Par contraste avec la validation croisée holdout, une technique beaucoup plus
+couramment utilisée est appelée **validation croisée k-fold**, ou encore à k-plis. Cela implique de prendre votre jeu de données et de le diviser en
+k morceaux. Pour chacun de ces morceaux, vous partagez ensuite les données en
+jeux d’entraînement et de test plus petits, puis vous évaluez l’erreur
+correspondante. Une fois que vous avez toutes les erreurs pour tous les
+morceaux, vous en calculez simplement la moyenne. L’avantage de cette
+méthode est que vous pouvez alors juger de l’erreur dans tous les aspects de vos
+données, au lieu d’en tester simplement un sous-ensemble spécifique.
+
+
+
+

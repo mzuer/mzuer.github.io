@@ -9,6 +9,7 @@ title: "Machine learning"
 * <a href="mini_batch">mini-batch</a>
 * <a href="cross_validation">cross-validation</a>
 * <a href="bias_variance">bias-variance trade-off</a>
+* <a href="gradient">gradient</a>
 * <a href="points_clefs_Azencott">"Points clefs" and interesting references from Azencott's [textbook](http://cazencott.info/dotclear/public/lectures/IntroML_Azencott.pdf)</a>
 
 ### References
@@ -33,6 +34,7 @@ s	- [Bayesian reasoning and machine learning](http://www.cs.ucl.ac.uk/staff/d.ba
 	- [Introduction au Machine Learning](http://cazencott.info/dotclear/public/lectures/IntroML_Azencott.pdf) - Azencott
 	- Le Machine learning avec R - Modélisation mathématique rigoureuse - Burger
 	- Data science fondamentaux et études de cas Machine learning avec Python et R - Biernat and Lutz
+	-  Data Science par la pratique - Grus
 	
 - Online ressources
 	- interactive machine learning articles on [**Distill**](https://distill.pub)

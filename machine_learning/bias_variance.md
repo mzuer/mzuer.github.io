@@ -45,3 +45,21 @@ apprentissage, il est donc souhaitable de limiter la complexité d’un modèle.
 la complexité du problème* (par exemple, le degré du polynôme ou le nombre de
 coefficients du modèle). Ainsi, un modèle complexe qui a une erreur empirique faible peut être défavorisé
 face à une modèle plus simple, même si celui-ci présente une erreur empirique plus élevée.
+
+##### *(source: Data Science par la pratique - Grus)*
+
+nombreuses erreurs pour à peu près n'importe quel jeu de données d'apprentissage => biais important
+deux jeux de données d'apprentissage quelconques produisent des résultats similaires => variance faible
+
+biais élevé et variance faible sont caractéristiques d'un **sous-ajustement**
+
+
+modèle qui correspond très exactement aux données d'apprentissage: biais faible, variance forte; typique de **surajustement**
+
+un modèle est très biaisé s'il n'est pas performant avec les données d'apprentissage; peut être bénéfique d'ajouter des variables (*features*)
+
+si le modèle a une faible variance, on peut essayer d'enlever des variables (ou obtenir davantage de données)
+
+à complexité constante, plus on a de données plus il est difficile de surajuster
+
+la mise à disposition de davantage de données reste sans effet sur le biais; si le modèle n'utilise pas assez de variables pour capter les éléments réguliers dans les données, il est inutile d'ajouter encore plus de données
