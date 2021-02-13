@@ -39,6 +39,115 @@ Some examples of mermaid diagrams:
 </body>
 </html>
 
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+ <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_classDiagrams.html">Class diagrams</a>
+
+    <div class="mermaid">
+classDiagram
+    class BankAccount
+    BankAccount : +String owner
+    BankAccount : +Bigdecimal balance
+    BankAccount : +deposit(amount)
+    BankAccount : +withdrawl(amount)
+
+    </div>
+
+</body>
+</html>
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+ <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_entityRelationshipDiagrams.html">Entity relationships diagrams</a>
+
+    <div class="mermaid">
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+    </div>
+
+</body>
+</html>
+
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_sequenceDiagrams.html">Sequence diagrams</a>
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    John-->>-Alice: Great!
+    </div>
+</body>
+</html>
+
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_stateDiagrams.html">State diagrams</a>
+
+    <div class="mermaid">
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+%% this is a comment
+    Still --> Moving
+    Moving --> Still %% another comment
+    Moving --> Crash
+    Crash --> [*]
+        </div>
+        
+</body>
+</html>
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_ganttDiagrams.html">Gantt diagrams</a>
+
+    <div class="mermaid">
+    gantt
+        apple :a, 2017-07-20, 1w
+        banana :crit, b, 2017-07-23, 1d
+        cherry :active, c, after b a, 1d
+    </div>
+        
+</body>
+</html>
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_flowcharts.html">Flow charts</a>
+
+    <div class="mermaid">
+graph TB
+    c1-->a2
+    subgraph ide1 [one]
+    a1-->a2
+    end
+    </div>
+        
+</body>
+</html>
 
 <html>
   <body>
@@ -51,6 +160,45 @@ Some examples of mermaid diagrams:
 pie title NETFLIX
          "Time spent looking for movie" : 90
          "Time spent watching it" : 10
+    </div>
+</body>
+</html>
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_userJourney.html">User journey</a>
+
+    <div class="mermaid">
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+    </div>
+</body>
+</html>
+
+
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_otherExamples.html">Other examples</a>
+
+    <div class="mermaid">
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
     </div>
 </body>
 </html>
