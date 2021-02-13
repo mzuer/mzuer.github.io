@@ -7,6 +7,10 @@ tags: plot visualization html
 ---
 
 
+See: <a href="https://mermaid-js.github.io">https://mermaid-js.github.io</a>
+
+Mermaid lets you represent diagrams using text and code. This simplifies maintaining complex diagrams. It is a Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically. The main purpose of Mermaid is to help Documentation catch up with Development.
+
 
 Some examples of mermaid diagrams:
 * <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_simpleDiagrams.html">Simple diagrams</a>
