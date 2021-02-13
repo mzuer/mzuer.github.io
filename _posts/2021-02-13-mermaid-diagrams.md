@@ -25,7 +25,7 @@ mermaid_userJourney.html
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
     
-<a href="../contents/mermaid_pieCharts.html">Pie charts</a>
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_pieCharts.html">Pie charts</a>
 
     <div class="mermaid">
 pie title NETFLIX
