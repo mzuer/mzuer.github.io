@@ -1,0 +1,202 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+
+Example 1
+
+    <div class="mermaid">
+ classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+
+    </div>
+
+Example 2
+
+    <div class="mermaid">
+classDiagram
+    class BankAccount
+    BankAccount : +String owner
+    BankAccount : +Bigdecimal balance
+    BankAccount : +deposit(amount)
+    BankAccount : +withdrawl(amount)
+
+    </div>
+
+Example 3    
+    
+    <div class="mermaid">
+classDiagram
+    class Animal
+    Vehicle <|-- Car
+  </div>
+
+Example 4
+
+
+    <div class="mermaid">
+classDiagram
+class Square~Shape~{
+    int id
+    List~int~ position
+    setPoints(List~int~ points)
+    getPoints() List~int~
+}
+  </div>
+  
+Example 5
+  
+    <div class="mermaid">
+classDiagram
+classA <|-- classB
+classC *-- classD
+classE o-- classF
+classG <-- classH
+classI -- classJ
+classK <.. classL
+classM <|.. classN
+classO .. classP
+  </div>
+
+Example 6
+
+    <div class="mermaid">
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+  </div>
+  
+Example 7
+  
+    <div class="mermaid">
+classDiagram
+classA <|-- classB : implements
+classC *-- classD : composition
+classE o-- classF : association
+  </div>
+
+Example 8
+
+    <div class="mermaid">
+classDiagram
+    Customer "1" --> "*" Ticket
+    Student "1" --> "1..*" Course
+    Galaxy --> "many" Star : Contains
+  </div>
+  
+  
+
+  
+Example 9
+
+    <div class="mermaid">
+classDiagram
+class Shape{
+    <<interface>>
+    noOfVertices
+    draw()
+}
+class Color{
+    <<enumeration>>
+    RED
+    BLUE
+    GREEN
+    WHITE
+    BLACK
+}
+  </div>
+
+Example 10
+
+    <div class="mermaid">
+classDiagram
+%% This whole line is a comment classDiagram class Shape <<interface>>
+class Shape{
+    <<interface>>
+    noOfVertices
+    draw()
+}
+  </div>
+
+Example 11
+
+<script>
+    var callbackFunction = function(){
+        alert('A callback was triggered');
+    }
+</script>
+
+    <div class="mermaid">
+ class BankAccount
+ BankAccount : +String owner
+ BankAccount : +BigDecimal balance
+ BankAccount : +deposit(amount)
+ BankAccount : +withdrawal(amount)
+  </div>
+
+  
+Example 12
+
+    <div class="mermaid">
+class BankAccount{
+    +String owner
+    +BigDecimal balance
+    +deposit(amount) bool
+    +withdrawl(amount)
+}
+  </div>
+  
+Example 13
+  
+    <div class="mermaid">
+class BankAccount{
+    +String owner
+    +BigDecimal balance
+    +deposit(amount) bool
+    +withdrawl(amount) int
+}
+  </div>
+
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

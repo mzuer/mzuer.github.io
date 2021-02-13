@@ -1,0 +1,212 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+
+Example 1
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+    </div>
+
+Example 2
+
+    <div class="mermaid">
+sequenceDiagram
+    participant John
+    participant Alice
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    </div>
+    
+Example 3
+
+    <div class="mermaid">
+sequenceDiagram
+    participant A as Alice
+    participant J as John
+    A->>J: Hello John, how are you?
+    J->>A: Great!
+    </div>
+
+Example 4
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    John-->>-Alice: Great!
+    </div>
+
+Example 5
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+    </div>
+
+Example 6
+
+    <div class="mermaid">
+sequenceDiagram
+    participant John
+    Note right of John: Text in note
+    </div>
+    
+Example 7
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    Note over Alice,John: A typical interaction
+    </div>
+    
+Example 8
+
+    <div class="mermaid">
+loop Loop text
+... statements ...
+end
+    </div>
+
+Example 9
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    loop Every minute
+        John-->Alice: Great!
+    end
+    </div>
+
+Example 10
+
+    <div class="mermaid">
+alt Describing text
+... statements ...
+else
+... statements ...
+end
+    </div>
+
+Example 11
+
+    <div class="mermaid">
+opt Describing text
+... statements ...
+end    
+</div>
+
+Example 12
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
+    </div>
+    
+Example 13
+
+    <div class="mermaid">
+par [Action 1]
+... statements ...
+and [Action 2]
+... statements ...
+and [Action N]
+... statements ...
+end
+    </div>
+
+Example 14
+
+    <div class="mermaid">
+rect rgb(0, 255, 0)
+... content ...
+end
+    </div>
+
+Example 15
+
+    <div class="mermaid">
+rect rgba(0, 0, 255, .1)
+... content ...
+end
+    </div>
+
+Example 16
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    %% this is a comment
+    John-->>Alice: Great!
+    </div>
+
+Example 17
+
+    <div class="mermaid">
+    <script>
+      mermaid.initialize({
+        sequence: { showSequenceNumbers: true },
+      });
+    </script>
+    </div>
+
+Example 18
+
+    <div class="mermaid">
+sequenceDiagram
+    autonumber
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+    </div>
+
+Example 19
+
+    <div class="mermaid">
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    activate John
+    John-->>Alice: Great!
+    deactivate John
+    </div>
+
+
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

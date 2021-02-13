@@ -1,0 +1,464 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+
+Example 1
+
+    <div class="mermaid">
+graph TD
+    Start --> Stop
+    </div>
+
+Example 2
+
+    <div class="mermaid">
+graph LR
+    Start --> Stop
+    </div>
+
+Example 3
+
+    <div class="mermaid">
+graph LR
+    id
+    </div>
+
+Example 4
+
+    
+    <div class="mermaid">
+graph LR
+    id1[This is the text in the box]
+    </div>
+
+Example 5
+
+    <div class="mermaid">
+graph LR
+    id1(This is the text in the box)
+    </div>
+
+Example 6
+
+    <div class="mermaid">
+graph LR
+    id1([This is the text in the box])
+    </div>
+
+Example 7
+
+    <div class="mermaid">
+graph LR
+    id1[[This is the text in the box]]
+    </div>
+    
+Example 8
+    
+    <div class="mermaid">
+graph LR
+    id1[(Database)]
+    </div>
+    
+Example 9
+    
+    <div class="mermaid">
+graph LR
+    id1((This is the text in the circle))
+    </div>
+    
+    <div class="mermaid">
+graph LR
+    id1>This is the text in the box]
+    </div>
+
+Example 10
+
+    <div class="mermaid">
+graph LR
+    id1{This is the text in the box}
+    </div>
+
+Example 11
+    
+    <div class="mermaid">
+graph LR
+    id1{{This is the text in the box}}
+    </div>
+
+Example 12
+
+    <div class="mermaid">
+graph TD
+    id1[/This is the text in the box/]
+    </div>
+
+Example 13
+
+    <div class="mermaid">
+graph TD
+    id1[\This is the text in the box\]
+    </div>
+
+Example 14
+
+    <div class="mermaid">
+graph TD
+    A[/Christmas\]
+    </div>
+
+Example 15
+
+    <div class="mermaid">
+graph TD
+    B[\Go shopping/]
+    </div>
+
+Example 16
+
+    <div class="mermaid">
+graph LR
+    A-->B
+    </div>
+
+Example 17
+
+    <div class="mermaid">
+graph LR
+    A --- B
+    </div>
+
+Example 18
+
+    <div class="mermaid">
+graph LR
+    A-- This is the text! ---B
+    </div>
+
+Example 19
+
+    <div class="mermaid">
+graph LR
+    A---|This is the text|B
+    </div>
+
+Example 20
+
+    <div class="mermaid">
+graph LR
+    A-->|text|B
+    </div>
+
+Example 21
+
+    <div class="mermaid">
+graph LR
+    A-- text -->B
+    </div>
+
+Example 22
+    
+    <div class="mermaid">
+graph LR;
+   A-.->B;
+    </div>
+
+Example 23
+
+    <div class="mermaid">
+graph LR
+   A-. text .-> B
+    </div>
+
+Example 24
+
+    <div class="mermaid">
+graph LR
+   A ==> B
+    </div>
+
+Example 25
+
+    <div class="mermaid">
+graph LR
+   A == text ==> B
+    </div>
+
+Example 26
+
+    <div class="mermaid">
+graph LR
+   A -- text --> B -- text2 --> C
+    </div>
+
+Example 27
+    
+    <div class="mermaid">
+graph LR
+   a --> b & c--> d
+    </div>
+
+Example 28
+
+    <div class="mermaid">
+graph TB
+    A & B--> C & D
+    </div>
+
+Example 29
+
+    <div class="mermaid">
+graph TB
+    A --> C
+    A --> D
+    B --> C
+    B --> D
+    </div>
+
+Example 30
+
+    <div class="mermaid">
+flowchart LR
+    A --o B
+    B --x C
+    </div>
+
+Example 31
+
+    <div class="mermaid">
+flowchart LR
+    A o--o B
+    B <--> C
+    C x--x D
+    </div>
+
+Example 32
+    
+    <div class="mermaid">
+graph TD
+    A[Start] --> B{Is it?};
+    B -->|Yes| C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B ---->|No| E[End];
+    </div>
+
+Example 33
+
+    <div class="mermaid">
+graph TD
+    A[Start] --> B{Is it?};
+    B -- Yes --> C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B -- No ----> E[End];
+    </div>
+
+Example 34
+
+    <div class="mermaid">
+graph LR
+    id1["This is the (text) in the box"]
+    </div>
+
+Example 35
+
+    <div class="mermaid">
+    graph LR
+        A["A double quote:#quot;"] -->B["A dec char:#9829;"]
+    </div>
+
+Example 36
+
+    <div class="mermaid">
+graph TB
+    c1-->a2
+    subgraph one
+    a1-->a2
+    end
+    subgraph two
+    b1-->b2
+    end
+    subgraph three
+    c1-->c2
+    end
+    </div>
+
+Example 37
+
+    <div class="mermaid">
+graph TB
+    c1-->a2
+    subgraph ide1 [one]
+    a1-->a2
+    end
+    </div>
+
+Example 38
+
+    <div class="mermaid">
+flowchart TB
+    c1-->a2
+    subgraph one
+    a1-->a2
+    end
+    subgraph two
+    b1-->b2
+    end
+    subgraph three
+    c1-->c2
+    end
+    one --> two
+    three --> two
+    two --> c2
+    </div>
+
+Example 39
+
+    <div class="mermaid">
+<script>
+  var callback = function(){
+      alert('A callback was triggered');
+  }
+</script>
+    </div>
+
+Example 40
+
+    <div class="mermaid">
+graph LR;
+    A-->B;
+    B-->C;
+    C-->D;
+    click A callback "Tooltip for a callback"
+    click B "http://www.github.com" "This is a tooltip for a link"
+    click A call callback() "Tooltip for a callback"
+    click B href "http://www.github.com" "This is a tooltip for a link"
+    </div>
+
+Example 41
+
+    <div class="mermaid">
+graph LR;
+    A-->B;
+    B-->C;
+    C-->D;
+    D-->E;
+    click A "http://www.github.com" _blank
+    click B "http://www.github.com" "Open this in a new tab" _blank
+    click C href "http://www.github.com" _blank
+    click D href "http://www.github.com" "Open this in a new tab" _blank
+    </div>
+
+Example 42
+
+  <div class="mermaid">
+    graph LR;
+        A-->B;
+        B-->C;
+        C-->D;
+        click A callback "Tooltip"
+        click B "http://www.github.com" "This is a link"
+        click C call callback() "Tooltip"
+        click D href "http://www.github.com" "This is a link"
+  </div>
+  
+  Example 43
+  
+    <div class="mermaid">
+
+  <script>
+    var callback = function(){
+        alert('A callback was triggered');
+    }
+    var config = {
+        startOnLoad:true,
+        flowchart:{
+            useMaxWidth:true,
+            htmlLabels:true,
+            curve:'cardinal',
+        },
+        securityLevel:'loose',
+    };
+
+    mermaid.initialize(config);
+  </script>
+    </div>
+
+Example 44
+
+
+    <div class="mermaid">
+graph LR
+%% this is a comment A -- text --> B{node}
+   A -- text --> B -- text2 --> C
+    </div>
+
+Example 45
+
+    <div class="mermaid">
+graph LR
+    id1(Start)-->id2(Stop)
+    style id1 fill:#f9f,stroke:#333,stroke-width:4px
+    style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    </div>
+
+Example 46
+
+    <div class="mermaid">
+graph LR
+    A:::someclass --> B
+    classDef someclass fill:#f96;
+    </div>
+
+Example 47
+
+  <div class="mermaid">
+<style>
+    .cssClass > rect{
+        fill:#FF0000;
+        stroke:#FFFF00;
+        stroke-width:4px;
+    }
+</style>
+    </div>
+
+Example 48
+
+    <div class="mermaid">
+graph LR;
+    A-->B[AAA<span>BBB</span>];
+    B-->D;
+    class A cssClass;
+    </div>
+
+Example 49
+
+    <div class="mermaid">
+graph TD
+    B["fa:fa-twitter for peace"]
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+    B-->E(A fa:fa-camera-retro perhaps?);
+    </div>
+
+Example 50
+
+    <div class="mermaid">
+graph LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+    </div>
+    
+    
+  </body>
+  
+  
+  
+  
+  
+</html>
+
+
