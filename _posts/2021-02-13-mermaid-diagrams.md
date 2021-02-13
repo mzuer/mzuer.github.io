@@ -24,8 +24,8 @@ mermaid_userJourney.html
   <body>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
-
-Example 1
+    
+<a href="../contents/mermaid_pieCharts.html">Pie charts</a>
 
     <div class="mermaid">
 pie title NETFLIX
