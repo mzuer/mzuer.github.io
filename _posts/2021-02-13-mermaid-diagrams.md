@@ -22,6 +22,7 @@ Some examples of mermaid diagrams:
 * <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_flowcharts.html">Flow charts</a>
 * <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_pieCharts.html">Pie charts</a>
 * <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_userJourney.html">User journey</a>
+* <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_gitGraph.html">Git graph</a>
 * <a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_otherExamples.html">Other examples</a>
 
 
@@ -189,6 +190,34 @@ journey
 </body>
 </html>
 
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+<a href="https://raw.githack.com/mzuer/mzuer.github.io/master/content/mermaid_gitGraph.html">Git graph</a>
+
+    <div class="mermaid">
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+
+    </div>
+</body>
+</html>
 
 <html>
   <body>
