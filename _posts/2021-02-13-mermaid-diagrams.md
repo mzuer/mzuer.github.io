@@ -20,16 +20,17 @@ mermaid_stateDiagrams.html
 mermaid_userJourney.html
 
 
+<html>
+  <body>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
 
 Example 1
 
-<body>
     <div class="mermaid">
-pie title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+pie title NETFLIX
+         "Time spent looking for movie" : 90
+         "Time spent watching it" : 10
     </div>
 </body>
+</html>
